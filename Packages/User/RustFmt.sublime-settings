@@ -1,0 +1,4 @@
+// RustFmt Settings - User
+{
+	"executable": "/home/ju/.cargo/bin/rustfmt"
+}

@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"CFG Configuration Syntax Highlighting",
+		"Dockerfile Syntax Highlighting",
+		"Git blame",
+		"GoSublime",
+		"INI",
+		"Package Control",
+		"Python 3",
+		"Python Improved",
+		"Python PEP8 Autoformat",
+		"Rust Enhanced",
+		"RustFmt",
+		"Sublime Input",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pylint",
+		"SublimeREPL",
+		"TOML"
+	]
+}

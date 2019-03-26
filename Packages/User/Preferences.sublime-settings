@@ -1,0 +1,23 @@
+{
+	"auto_complete": false,
+	"color_scheme": "Packages/User/Sunburst (Flake8Lint).tmTheme",
+	"drag_text": false,
+	"font_face": "",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"scroll_speed": 1.0,
+	"shift_tab_unindent": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"bold_folder_labels": true,
+	"ui_scale": 1.3
+}
