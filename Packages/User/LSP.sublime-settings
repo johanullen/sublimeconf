@@ -1,0 +1,17 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+  "show_code_actions": "bulb",
+  "diagnostics_highlight_style": {
+    "error": "box",
+    "warning": "box",
+    "info": "box",
+    "hint": "box"
+  },
+  // --- Hover popup --------------------------------------------------------------------
+  "popup_max_characters_width": 120,
+  "popup_max_characters_height": 2000,
+  "show_code_actions_in_hover": true,
+  "show_symbol_action_links": true,
+
+  "hover_highlight_style": "background"
+}

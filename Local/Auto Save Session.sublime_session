@@ -1,0 +1,4655 @@
+{
+	"file_history":
+	[
+		"/home/ju/writing/fates_intersection/100_act1/112b.md",
+		"/home/ju/writing/fates_intersection/100_act1/111.md",
+		"/home/ju/writing/fates_intersection/001_prologue.md",
+		"/home/ju/writing/fates_intersection/100_act1/112.md",
+		"/home/ju/writing/fates_intersection/100_act1/121.md",
+		"/home/ju/writing/fates_intersection/100_act1/131.md",
+		"/home/ju/writing/fates_intersection/100_act1/122.md",
+		"/home/ju/writing/fates_intersection/100_act1/100_act1_chemistry.md",
+		"/home/ju/writing/fates_intersection/100_act1/110_chapter1.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C060_scandinavian-city.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C050_singapore.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C040_shanghai.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C000_locations.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B100_main-characters.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B000_characters.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B215_gerald.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B214_ying.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B213_yixin.md",
+		"/home/ju/writing/fates_intersection/appendices/A/A000_planning.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B212_chloe.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B211_jason.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B210_jun.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B209_fredrik.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B208_lucas.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B207_jacob.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B206_mathias.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B205_thomas.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B204_linda.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B203_jonas.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B202_martin.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B201_interviewer.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B200_side-characters.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B120_lynette.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B110_alex.md",
+		"/home/ju/writing/fates_intersection/100_act1/123.md",
+		"/home/ju/.config/sublime-text/Packages/User/Sunburst (Flake8Lint).tmTheme",
+		"/home/ju/.config/sublime-text/Packages/User/Sunburst (Flake8Lint).sublime-color-scheme",
+		"/home/ju/.config/sublime-text/Packages/User/LSP.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/LSP/LSP.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/lsp_utils/lsp_utils.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/User/lsp_utils.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/Color Scheme/Sunburst.tmTheme",
+		"/home/ju/.config/sublime-text/Packages/Sublime Input/SublimeInput.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/User/LSP-Grammarly.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/LSP-Grammarly/LSP-Grammarly.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ju/.config/sublime-text/Packages/LSP/Default.sublime-keymap",
+		"/home/ju/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/LSP/language-ids.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/User/language-ids.sublime-settings",
+		"/home/ju/writing/fates_intersection/100_act1/112a.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C010_the-interview-office.md",
+		"/home/ju/writing/fates_intersection/000_fates-intersection.md",
+		"/home/ju/writing/fates_intersection/appendices/C/C001_the-summer-house.md",
+		"/home/ju/writing/fates_intersection/100_act1/199_conclusion.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B210_json.md",
+		"/home/ju/writing/fates_intersection/appendices/B/B211_jun.md",
+		"/home/ju/writing/fates_intersection/requirements.in",
+		"/home/ju/writing/fates_intersection/README.md",
+		"/home/ju/writing/fates_intersection/.gitignore",
+		"/home/ju/writing/fates_intersection/002_prologue.md",
+		"/home/ju/writing/fates_intersection/100_act1/130_chapter3.md",
+		"/home/ju/writing/fates_intersection/100_act1/122a.md",
+		"/home/ju/writing/fates_intersection/100_act1/120_chapter2.md",
+		"/home/ju/writing/sandra_mattias_speech/speech.md",
+		"/home/ju/writing/test.md",
+		"/home/ju/writing/sandra_mattias_speach/speach.md",
+		"/home/ju/.config/sublime-text/Packages/User/Pandoc.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/Pandoc/Pandoc.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/MarkdownPreview/MarkdownPreview.sublime-settings",
+		"/home/ju/.config/sublime-text/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/ju/writing/fates_intersection/appendices/A/A300_plot-progression.md",
+		"/home/ju/writing/fates_intersection/appendices/A/A200_outline.md",
+		"/home/ju/writing/fates_intersection/appendices/A/A100_description.md",
+		"/home/ju/writing/fates_intersection/300_act3/300_act3_sociology.md",
+		"/home/ju/writing/fates_intersection/200_act2/200_act2_biology.md",
+		"/home/ju/writing/fates_intersection/900_epilogue.md",
+		"/home/ju/writing/fates_intersection/appendices/Appendicies.md",
+		"/home/ju/writing/fates_intersection/appendices/A200_plot-progression.md",
+		"/home/ju/writing/fates_intersection/appendices/A100_outline.md",
+		"/home/ju/writing/fates_intersection/122a_censored_sex-at-hotel.md",
+		"/home/ju/code/tls_client/Cargo.toml",
+		"/home/ju/code/tls_client/src/main.rs"
+	],
+	"folder_history":
+	[
+		"/home/ju/writing/sandra_mattias_speech",
+		"/home/ju/writing/sandra_mattias_speach",
+		"/home/ju/writing/fates_intersection",
+		"/home/ju/code/tls_client",
+		"/home/ju/dotfiles",
+		"/home/ju/.config/i3",
+		"/home/ju/audible/aax2mp3tools/audible-activator-master",
+		"/home/ju/code/rpi_cluster/experiments/services/python_ping_endpoint",
+		"/home/ju/code/rpi_cluster",
+		"/home/ju/.config/sublime-text/Packages/User",
+		"/home/ju/code/rs-hs-github-sandbox",
+		"/home/ju/Documents/code/anomaly_twoday",
+		"/home/ju/Documents/code/crimepred",
+		"/home/ju/Documents/code/sentian_focus",
+		"/home/ju/Documents/code/product_main",
+		"/home/ju/Documents/hashcode/hascode2019",
+		"/home/ju/Documents/rust/hashcode2019_rust",
+		"/home/ju/Documents/code/mlflow/examples",
+		"/home/ju/Documents/code/sentian_focus/sentian_focus/datastructures",
+		"/home/ju/Documents/rust/minigrep",
+		"/home/ju/Documents/rust/adder",
+		"/home/ju/Documents/rust/advent_of_coding/2017",
+		"/home/ju/Documents/rust/mal/ullen/src",
+		"/home/ju/Documents/azspc/hex_nums",
+		"/home/ju/Documents/code/anomaly/anomaly",
+		"/home/ju/mnt/anomaly",
+		"/home/ju/Documents/code/anomaly",
+		"/home/ju/Documents/rust/mal/ullen",
+		"/home/ju/Documents/rust/mal/johan",
+		"/home/ju/Documents/code/sentian_focus_master",
+		"/home/ju/Documents/code/crimepred2",
+		"/home/ju/mnt/crimepred",
+		"/home/ju/Documents/code/MalmoCP",
+		"/home/ju/Documents/code/MalmoCP/src",
+		"/home/ju/Documents/scalaspark1/timeusage",
+		"/home/ju/Documents/scalaspark1/target",
+		"/home/ju/Documents/scalaspark1/stackoverflow",
+		"/home/ju/Documents/capstone/observatory_v2",
+		"/home/ju/Documents/rust/mal",
+		"/home/ju/mnt/aws_train/anomaly",
+		"/home/ju/Documents/code/sentian_focus/sentian_focus/persistence",
+		"/home/ju/Documents/rust/advent_of_coding/2017/day8/src",
+		"/home/ju/Documents/code/anomaly_er",
+		"/home/ju/mnt/aws_train/anomaly/anomaly",
+		"/home/ju/mount/copernicus/docker"
+	],
+	"last_version": 4143,
+	"last_window_id": 305,
+	"log_indexing": false,
+	"next_update_check": 1683479240,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1218.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			3444.0,
+			166.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"si",
+						"site2event_count"
+					],
+					[
+						"eval",
+						"evaluate"
+					],
+					[
+						"wrapp",
+						"wrapping_class"
+					],
+					[
+						"get_s",
+						"get_shapes"
+					],
+					[
+						"print",
+						"print_str"
+					],
+					[
+						"Ma",
+						"MalList"
+					],
+					[
+						"Mal",
+						"MalSymbols"
+					],
+					[
+						"re",
+						"reader"
+					],
+					[
+						"read",
+						"read_form"
+					],
+					[
+						"feat",
+						"features_df"
+					],
+					[
+						"features",
+						"features_df"
+					],
+					[
+						"feate",
+						"features_dfs"
+					],
+					[
+						"fea",
+						"features_df"
+					],
+					[
+						"get_",
+						"get_features"
+					],
+					[
+						"featu",
+						"feature_dfs"
+					],
+					[
+						"feature",
+						"feature_file"
+					],
+					[
+						"sites",
+						"sites_file"
+					],
+					[
+						"opac",
+						"opactdispids"
+					],
+					[
+						"add",
+						"addresses"
+					],
+					[
+						"site2",
+						"site2events_to_address"
+					],
+					[
+						"site",
+						"site2event"
+					],
+					[
+						"merge",
+						"merged_site2events"
+					],
+					[
+						"grs",
+						"grs_site_events"
+					],
+					[
+						"mas_s",
+						"mas_site_events"
+					],
+					[
+						"eve",
+						"events"
+					],
+					[
+						"even",
+						"events"
+					],
+					[
+						"mas",
+						"mas_sites"
+					],
+					[
+						"evet",
+						"events_rdd"
+					],
+					[
+						"event",
+						"events_rdd"
+					],
+					[
+						"opa",
+						"opactdispids"
+					],
+					[
+						"op",
+						"opactdispids"
+					],
+					[
+						"oc",
+						"opactdispid_index"
+					],
+					[
+						"opt",
+						"opactdispid_index"
+					],
+					[
+						"events",
+						"events_rdd"
+					],
+					[
+						"Spar",
+						"SparkContext"
+					],
+					[
+						"pre",
+						"preprocess_feature_group"
+					],
+					[
+						"load",
+						"load_feature_groups"
+					],
+					[
+						"grs_",
+						"grs_sites"
+					],
+					[
+						"load_mas",
+						"load_mas_sites"
+					],
+					[
+						"MalString",
+						"MalStringType"
+					],
+					[
+						"MalL",
+						"MalListType"
+					],
+					[
+						"ha",
+						"hash_value"
+					],
+					[
+						"ax",
+						"axis"
+					],
+					[
+						"asse",
+						"assert_axis"
+					],
+					[
+						"assert",
+						"assert_axes"
+					],
+					[
+						"vec",
+						"vector_list"
+					],
+					[
+						"na",
+						"n_axes"
+					],
+					[
+						"val",
+						"values"
+					],
+					[
+						"ve",
+						"vector_list"
+					],
+					[
+						"start",
+						"start_index"
+					],
+					[
+						"new",
+						"new_last"
+					],
+					[
+						"cmp",
+						"cmp_ais"
+					],
+					[
+						"ind",
+						"indices"
+					],
+					[
+						"c",
+						"classmethod"
+					],
+					[
+						"time",
+						"timerange"
+					],
+					[
+						"va",
+						"values_list"
+					],
+					[
+						"values",
+						"values_list"
+					],
+					[
+						"axis",
+						"axis_indices"
+					],
+					[
+						"join_",
+						"join_cls"
+					],
+					[
+						"pr",
+						"pr_str"
+					],
+					[
+						"conca",
+						"concatenate"
+					],
+					[
+						"axi",
+						"axis_indices"
+					],
+					[
+						"cls",
+						"cls_objs_list"
+					],
+					[
+						"Ab",
+						"AbstractIndices"
+					],
+					[
+						"axes",
+						"axes_indices"
+					],
+					[
+						"is",
+						"isinstance"
+					],
+					[
+						"expec",
+						"expected_columns"
+					],
+					[
+						"exp",
+						"expected"
+					],
+					[
+						"asset",
+						"assert_equal"
+					],
+					[
+						"mat",
+						"matrix"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"hash",
+						"hashlib"
+					],
+					[
+						"ex",
+						"expected"
+					],
+					[
+						"expe",
+						"expected_values"
+					],
+					[
+						"Per",
+						"PersistableImplemented"
+					],
+					[
+						"con",
+						"concat_vector"
+					],
+					[
+						"indi",
+						"indices2"
+					],
+					[
+						"pers",
+						"persistable"
+					],
+					[
+						"hash_",
+						"hash_value"
+					],
+					[
+						"in",
+						"indices"
+					],
+					[
+						"In",
+						"IndicesNotImplemented"
+					],
+					[
+						"A",
+						"TestAbstractIndices"
+					],
+					[
+						"conc",
+						"concat"
+					],
+					[
+						"inde",
+						"indices"
+					],
+					[
+						"nwe",
+						"new_end"
+					],
+					[
+						"date",
+						"datetime"
+					],
+					[
+						"class",
+						"classmethod"
+					],
+					[
+						"prin",
+						"println\tprintln!(…)"
+					],
+					[
+						"fed",
+						"feedback"
+					],
+					[
+						"feed",
+						"feedback"
+					],
+					[
+						"feedback",
+						"feedback_config"
+					],
+					[
+						"sec",
+						"secodary_weight"
+					],
+					[
+						"weig",
+						"weights_conf"
+					],
+					[
+						"sub",
+						"subsystem_weight"
+					],
+					[
+						"sens",
+						"sensor_weight"
+					],
+					[
+						"subs",
+						"subsystems"
+					],
+					[
+						"we",
+						"weights_conf"
+					],
+					[
+						"com",
+						"combine_sensor_and_subsystem_weights"
+					],
+					[
+						"sensor",
+						"sensor_weights"
+					],
+					[
+						"wei",
+						"weights"
+					],
+					[
+						"feedba",
+						"feedback_len"
+					],
+					[
+						"anomaly",
+						"anomaly_score"
+					],
+					[
+						"anoa",
+						"anomaly_score"
+					],
+					[
+						"sum",
+						"sum_scores"
+					],
+					[
+						"an",
+						"anomaly_scores"
+					],
+					[
+						"fee",
+						"feedback_by_sensor"
+					],
+					[
+						"anoma",
+						"anomalies"
+					],
+					[
+						"ano",
+						"anomaly_detection_args"
+					],
+					[
+						"model",
+						"model"
+					],
+					[
+						"mod",
+						"model_name"
+					],
+					[
+						"model_",
+						"model_name"
+					],
+					[
+						"mode",
+						"model_name"
+					],
+					[
+						"peak",
+						"peak_indices"
+					],
+					[
+						"actual",
+						"actual_hist"
+					],
+					[
+						"sne",
+						"sensor"
+					],
+					[
+						"senso",
+						"sensor"
+					],
+					[
+						"actu",
+						"actual_bin_probs"
+					],
+					[
+						"act",
+						"actual_bin_edges"
+					],
+					[
+						"sen",
+						"sensor2bin_probs"
+					],
+					[
+						"wid",
+						"window_fraction"
+					],
+					[
+						"winw",
+						"window_fraction"
+					],
+					[
+						"wind",
+						"window_fraction"
+					],
+					[
+						"flat",
+						"float32"
+					],
+					[
+						"s",
+						"sensors"
+					],
+					[
+						"se",
+						"sensor"
+					],
+					[
+						"hist",
+						"hist"
+					],
+					[
+						"gaus",
+						"gauss_window"
+					],
+					[
+						"bin",
+						"bin_edges"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/ipython3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/ipython3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/ipython3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Automatic"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Run (with args)..."
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Check"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Test (with args)..."
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Bench"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Document"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Clippy"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Script"
+						]
+					],
+					[
+						"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+						"Automatic"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Bench"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Rust/Cargo.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust/Rust.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust/Rust.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/Rust/Rust.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 124.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"lsp",
+						"Preferences: LSP Settings"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"grammary",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"LSP: ",
+						"LSP: Code Action…"
+					],
+					[
+						"grammar",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"grammraly",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"pandoc",
+						"Pandoc: Convert a Pandoc file to PDF"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"gra",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"grfa",
+						"LSP-Grammarly: Log in to Grammarly through Third Party (Sends data to netlify function)"
+					],
+					[
+						"markdow",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"gramm",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"gr",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"lsp: ",
+						"LSP: Enable Language Server Globally"
+					],
+					[
+						"lsp gra",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"browser",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"lsp gramm",
+						"LSP-Grammarly: Log in to Grammarly through Third Party (Sends data to netlify function)"
+					],
+					[
+						"package ",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"remve",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"package in",
+						"Package Control: Install Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: Insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install ",
+						"Package Control: Install Package"
+					],
+					[
+						"gosublime",
+						"GoSublime: Do a sanity check"
+					],
+					[
+						"Package Control: up",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: sear",
+						"Package Control: Discover Packages"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 732.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"import urllib2",
+					"def a(b,c)",
+					"?",
+					"help",
+					"import version",
+					"python --version",
+					"version",
+					"import urllib2",
+					"exit",
+					"clear",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib3,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib3,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/ju/.config/sublime-text/Packages/Color Scheme/Sunburst.tmTheme",
+				"/home/ju/writing/fates_intersection/100_act1/112a.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A000_planning.md",
+				"/home/ju/writing/fates_intersection/100_act1/121.md",
+				"/home/ju/writing/fates_intersection/100_act1/131.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B214_ying.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B213_yixin.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B212_chloe.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B211_jason.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B210_jun.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B209_fredrik.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B208_lucas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B207_jacob.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B206_mathias.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B215_gerald.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B205_thomas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B204_linda.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B203_jonas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B202_martin.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B201_interviewer.md",
+				"/home/ju/writing/fates_intersection/100_act1/111.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C010_the-interview-office.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C000_locations.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B000_characters.md",
+				"/home/ju/writing/fates_intersection/000_fates-intersection.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C001_the-summer-house.md",
+				"/home/ju/writing/fates_intersection/100_act1/199_conclusion.md",
+				"/home/ju/writing/fates_intersection/100_act1/123.md",
+				"/home/ju/writing/fates_intersection/100_act1/122.md",
+				"/home/ju/writing/fates_intersection/100_act1/112b.md",
+				"/home/ju/writing/fates_intersection/100_act1/100_act1_chemistry.md",
+				"/home/ju/writing/fates_intersection/100_act1/110_chapter1.md",
+				"/home/ju/writing/fates_intersection/100_act1/112.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B210_json.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B211_jun.md",
+				"/home/ju/writing/fates_intersection/001_prologue.md",
+				"/home/ju/writing/fates_intersection/requirements.in",
+				"/home/ju/writing/fates_intersection/README.md",
+				"/home/ju/writing/fates_intersection/.gitignore",
+				"/home/ju/writing/fates_intersection/002_prologue.md",
+				"/home/ju/writing/fates_intersection/100_act1/130_chapter3.md",
+				"/home/ju/writing/fates_intersection/100_act1/122a.md",
+				"/home/ju/writing/fates_intersection/100_act1/120_chapter2.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A300_plot-progression.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A200_outline.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A100_description.md",
+				"/home/ju/writing/fates_intersection/300_act3/300_act3_sociology.md",
+				"/home/ju/writing/fates_intersection/200_act2/200_act2_biology.md",
+				"/home/ju/writing/fates_intersection/900_epilogue.md",
+				"/home/ju/writing/fates_intersection/appendices/Appendicies.md",
+				"/home/ju/writing/fates_intersection/appendices/A200_plot-progression.md",
+				"/home/ju/writing/fates_intersection/appendices/A100_outline.md",
+				"/home/ju/writing/fates_intersection/122a_censored_sex-at-hotel.md",
+				"/home/ju/code/rpi_cluster/experiments/compositions/local-ping/README.md",
+				"/home/ju/code/rpi_cluster/documentation/install-docker-compose-on-rpi.md",
+				"/home/ju/code/rpi_cluster/experiments/services/javascript-ping-service/README.md",
+				"/home/ju/code/rpi_cluster/scripts/command_clients.py",
+				"/home/ju/code/rpi_cluster/experiments/python_ping_endpoint/app.py",
+				"/home/ju/code/rpi_cluster/experiments/compositions/local-ping-composition/docker-compose.yml",
+				"/home/ju/code/rpi_cluster/experiments/docker-compose.yml",
+				"/home/ju/code/rpi_cluster/experiments/python_ping_endpoint/main.py",
+				"/home/ju/code/rs-hs-github-sandbox/README.md",
+				"/home/ju/.config/sublime-text/Packages/GoSublime/USAGE.md",
+				"/home/ju/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/ju/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/ju/Documents/code/anomaly_twoday/src/preprocess/__init__.py",
+				"/home/ju/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+				"/home/ju/Documents/code/crimepred/src/util/yaml_loader.py",
+				"/home/ju/Documents/rust/hashcode2019_rust/src/analyse.rs",
+				"/home/ju/Downloads/2019/b_lovely_landscapes.txt",
+				"/home/ju/Downloads/2019/e_shiny_selfies.txt",
+				"/home/ju/Downloads/2019/d_pet_pictures.txt",
+				"/home/ju/Downloads/2019/a_example (copy).txt",
+				"/home/ju/Downloads/2019/c_memorable_moments.txt",
+				"/home/ju/Documents/hashcode/hascode2019/verticals.py",
+				"/home/ju/Documents/hashcode/hascode2019/tags.py",
+				"/home/ju/Documents/hashcode/hascode2019/io.py",
+				"/home/ju/mnt/anomaly/anomaly/run_for_demo.py",
+				"/tmp/mozilla_ju0/README.md",
+				"/home/ju/Documents/azspc/hex_nums/visualize.py",
+				"/home/ju/Documents/rust/mal/ullen/src/main.rs",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/clustering.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/evaluation.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/clustering/reduce_dim.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/io_utils.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/user_obj.py",
+				"/home/ju/Documents/code/sentian_focus_master/tests/persistance/test_inner.py",
+				"/home/ju/Documents/code/sentian_focus_master/tests/persistance/test_io_utils.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/wrapper.py",
+				"/home/ju/Documents/code/crimepred/src/loading/risk_areas.py",
+				"/home/ju/Documents/code/crimepred/src/infer.py",
+				"/home/ju/Documents/code/crimepred/src/model.py",
+				"/home/ju/Documents/code/crimepred/config/config.yml",
+				"/home/ju/Documents/code/crimepred/src/preprocess.py",
+				"/home/ju/Documents/code/crimepred/src/autoencoder/train_autoencoder.py",
+				"/home/ju/Documents/code/crimepred/README.md",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_60_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_30_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_200_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_100_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/src/util/persistence.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/modelling.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/model_classes/model_base.py",
+				"/home/ju/Documents/code/crimepred/src/util/gis.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/reporting.py",
+				"/home/ju/Documents/code/crimepred/src/util/export.py",
+				"/home/ju/Documents/code/crimepred/src/test_run.py",
+				"/home/ju/Documents/code/crimepred/src/export.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/aggregate.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/filter.py",
+				"/home/ju/Documents/code/crimepred/config/filter/default.yml",
+				"/home/ju/data/crimepred/locations.py",
+				"/home/ju/Documents/code/crimepred/src/loading/locations.py",
+				"/home/ju/Documents/code/crimepred/src/loading/events.py",
+				"/home/ju/Documents/code/crimepred/src/util/geocoder.py",
+				"/home/ju/Documents/code/crimepred/config/filtering/default.yml",
+				"/home/ju/Documents/code/crimepred/config/risk_areas/scb.yml",
+				"/home/ju/Documents/code/crimepred/Dockerfile",
+				"/home/ju/Documents/code/crimepred/src/util/dataframe.py",
+				"/home/ju/Documents/code/crimepred/src/loading/features.py",
+				"/home/ju/Documents/code/crimepred/config/shapes/scb.yml",
+				"/home/ju/Documents/code/crimepred/src/util/timer.py",
+				"/home/ju/Documents/code/crimepred/src/loading/shapes.py",
+				"/home/ju/Documents/code/crimepred/src/loading/sites.py",
+				"/home/ju/Documents/code/crimepred/config/clustering/default.yml",
+				"/home/ju/Documents/code/crimepred/config/model/ols_default.yml",
+				"/home/ju/Documents/code/crimepred/config/model/ridge/default.yml",
+				"/home/ju/Documents/code/crimepred/config/model/random_forest/basic.yml"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 232.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 80.0
+			},
+			"menu_visible": true,
+			"output.9o:///home/ju/Documents/code/framework/sentian/toolkit":
+			{
+				"height": 381.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/gowiki":
+			{
+				"height": 184.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/hello":
+			{
+				"height": 184.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/ref_daemon":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/testsqlite":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/testunixsocket_server":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/sentian_focus/sentian_focus/datastructures":
+			{
+				"height": 156.0
+			},
+			"output.9o:///home/ju/mnt/aws_tmp/aws-inference/algorithms":
+			{
+				"height": 162.0
+			},
+			"output.9o:///home/ju/mnt/copernicus/Documents/code/securitas_PAR":
+			{
+				"height": 178.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 184.0
+			},
+			"output.GoSublime-output":
+			{
+				"height": 841.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 377.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 168.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 682.0
+			},
+			"output.diagnostics":
+			{
+				"height": 366.0
+			},
+			"output.exec":
+			{
+				"height": 640.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 650.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 494.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 333.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 3432.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"si",
+						"site2event_count"
+					],
+					[
+						"eval",
+						"evaluate"
+					],
+					[
+						"wrapp",
+						"wrapping_class"
+					],
+					[
+						"get_s",
+						"get_shapes"
+					],
+					[
+						"print",
+						"print_str"
+					],
+					[
+						"Ma",
+						"MalList"
+					],
+					[
+						"Mal",
+						"MalSymbols"
+					],
+					[
+						"re",
+						"reader"
+					],
+					[
+						"read",
+						"read_form"
+					],
+					[
+						"feat",
+						"features_df"
+					],
+					[
+						"features",
+						"features_df"
+					],
+					[
+						"feate",
+						"features_dfs"
+					],
+					[
+						"fea",
+						"features_df"
+					],
+					[
+						"get_",
+						"get_features"
+					],
+					[
+						"featu",
+						"feature_dfs"
+					],
+					[
+						"feature",
+						"feature_file"
+					],
+					[
+						"sites",
+						"sites_file"
+					],
+					[
+						"opac",
+						"opactdispids"
+					],
+					[
+						"add",
+						"addresses"
+					],
+					[
+						"site2",
+						"site2events_to_address"
+					],
+					[
+						"site",
+						"site2event"
+					],
+					[
+						"merge",
+						"merged_site2events"
+					],
+					[
+						"grs",
+						"grs_site_events"
+					],
+					[
+						"mas_s",
+						"mas_site_events"
+					],
+					[
+						"eve",
+						"events"
+					],
+					[
+						"even",
+						"events"
+					],
+					[
+						"mas",
+						"mas_sites"
+					],
+					[
+						"evet",
+						"events_rdd"
+					],
+					[
+						"event",
+						"events_rdd"
+					],
+					[
+						"opa",
+						"opactdispids"
+					],
+					[
+						"op",
+						"opactdispids"
+					],
+					[
+						"oc",
+						"opactdispid_index"
+					],
+					[
+						"opt",
+						"opactdispid_index"
+					],
+					[
+						"events",
+						"events_rdd"
+					],
+					[
+						"Spar",
+						"SparkContext"
+					],
+					[
+						"pre",
+						"preprocess_feature_group"
+					],
+					[
+						"load",
+						"load_feature_groups"
+					],
+					[
+						"grs_",
+						"grs_sites"
+					],
+					[
+						"load_mas",
+						"load_mas_sites"
+					],
+					[
+						"MalString",
+						"MalStringType"
+					],
+					[
+						"MalL",
+						"MalListType"
+					],
+					[
+						"ha",
+						"hash_value"
+					],
+					[
+						"ax",
+						"axis"
+					],
+					[
+						"asse",
+						"assert_axis"
+					],
+					[
+						"assert",
+						"assert_axes"
+					],
+					[
+						"vec",
+						"vector_list"
+					],
+					[
+						"na",
+						"n_axes"
+					],
+					[
+						"val",
+						"values"
+					],
+					[
+						"ve",
+						"vector_list"
+					],
+					[
+						"start",
+						"start_index"
+					],
+					[
+						"new",
+						"new_last"
+					],
+					[
+						"cmp",
+						"cmp_ais"
+					],
+					[
+						"ind",
+						"indices"
+					],
+					[
+						"c",
+						"classmethod"
+					],
+					[
+						"time",
+						"timerange"
+					],
+					[
+						"va",
+						"values_list"
+					],
+					[
+						"values",
+						"values_list"
+					],
+					[
+						"axis",
+						"axis_indices"
+					],
+					[
+						"join_",
+						"join_cls"
+					],
+					[
+						"pr",
+						"pr_str"
+					],
+					[
+						"conca",
+						"concatenate"
+					],
+					[
+						"axi",
+						"axis_indices"
+					],
+					[
+						"cls",
+						"cls_objs_list"
+					],
+					[
+						"Ab",
+						"AbstractIndices"
+					],
+					[
+						"axes",
+						"axes_indices"
+					],
+					[
+						"is",
+						"isinstance"
+					],
+					[
+						"expec",
+						"expected_columns"
+					],
+					[
+						"exp",
+						"expected"
+					],
+					[
+						"asset",
+						"assert_equal"
+					],
+					[
+						"mat",
+						"matrix"
+					],
+					[
+						"co",
+						"columns"
+					],
+					[
+						"hash",
+						"hashlib"
+					],
+					[
+						"ex",
+						"expected"
+					],
+					[
+						"expe",
+						"expected_values"
+					],
+					[
+						"Per",
+						"PersistableImplemented"
+					],
+					[
+						"con",
+						"concat_vector"
+					],
+					[
+						"indi",
+						"indices2"
+					],
+					[
+						"pers",
+						"persistable"
+					],
+					[
+						"hash_",
+						"hash_value"
+					],
+					[
+						"in",
+						"indices"
+					],
+					[
+						"In",
+						"IndicesNotImplemented"
+					],
+					[
+						"A",
+						"TestAbstractIndices"
+					],
+					[
+						"conc",
+						"concat"
+					],
+					[
+						"inde",
+						"indices"
+					],
+					[
+						"nwe",
+						"new_end"
+					],
+					[
+						"date",
+						"datetime"
+					],
+					[
+						"class",
+						"classmethod"
+					],
+					[
+						"prin",
+						"println\tprintln!(…)"
+					],
+					[
+						"fed",
+						"feedback"
+					],
+					[
+						"feed",
+						"feedback"
+					],
+					[
+						"feedback",
+						"feedback_config"
+					],
+					[
+						"sec",
+						"secodary_weight"
+					],
+					[
+						"weig",
+						"weights_conf"
+					],
+					[
+						"sub",
+						"subsystem_weight"
+					],
+					[
+						"sens",
+						"sensor_weight"
+					],
+					[
+						"subs",
+						"subsystems"
+					],
+					[
+						"we",
+						"weights_conf"
+					],
+					[
+						"com",
+						"combine_sensor_and_subsystem_weights"
+					],
+					[
+						"sensor",
+						"sensor_weights"
+					],
+					[
+						"wei",
+						"weights"
+					],
+					[
+						"feedba",
+						"feedback_len"
+					],
+					[
+						"anomaly",
+						"anomaly_score"
+					],
+					[
+						"anoa",
+						"anomaly_score"
+					],
+					[
+						"sum",
+						"sum_scores"
+					],
+					[
+						"an",
+						"anomaly_scores"
+					],
+					[
+						"fee",
+						"feedback_by_sensor"
+					],
+					[
+						"anoma",
+						"anomalies"
+					],
+					[
+						"ano",
+						"anomaly_detection_args"
+					],
+					[
+						"model",
+						"model"
+					],
+					[
+						"mod",
+						"model_name"
+					],
+					[
+						"model_",
+						"model_name"
+					],
+					[
+						"mode",
+						"model_name"
+					],
+					[
+						"peak",
+						"peak_indices"
+					],
+					[
+						"actual",
+						"actual_hist"
+					],
+					[
+						"sne",
+						"sensor"
+					],
+					[
+						"senso",
+						"sensor"
+					],
+					[
+						"actu",
+						"actual_bin_probs"
+					],
+					[
+						"act",
+						"actual_bin_edges"
+					],
+					[
+						"sen",
+						"sensor2bin_probs"
+					],
+					[
+						"wid",
+						"window_fraction"
+					],
+					[
+						"winw",
+						"window_fraction"
+					],
+					[
+						"wind",
+						"window_fraction"
+					],
+					[
+						"flat",
+						"float32"
+					],
+					[
+						"s",
+						"sensors"
+					],
+					[
+						"se",
+						"sensor"
+					],
+					[
+						"hist",
+						"hist"
+					],
+					[
+						"gaus",
+						"gauss_window"
+					],
+					[
+						"bin",
+						"bin_edges"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/ju/writing/fates_intersection/100_act1/113.md",
+					"settings":
+					{
+						"buffer_size": 320,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							3,
+							1,
+							"insert",
+							{
+								"characters": "\nLynet"
+							},
+							"BgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							4,
+							1,
+							"insert",
+							{
+								"characters": "te"
+							},
+							"AgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							5,
+							1,
+							"insert",
+							{
+								"characters": " sat"
+							},
+							"BAAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							6,
+							1,
+							"insert",
+							{
+								"characters": " silent"
+							},
+							"BwAAAAwAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAAOAAAAAAAAAAAAAAAOAAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAARAAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							7,
+							1,
+							"insert",
+							{
+								"characters": "ly"
+							},
+							"AgAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							8,
+							1,
+							"insert",
+							{
+								"characters": " in"
+							},
+							"AwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFQAAAAAAAAAVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							9,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAABsAAAAAAAAAHAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							10,
+							1,
+							"insert",
+							{
+								"characters": " back"
+							},
+							"BQAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAhAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": " of"
+							},
+							"AwAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							12,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"insert",
+							{
+								"characters": " car"
+							},
+							"BAAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAALAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": " going"
+							},
+							"BgAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC8AAAAAAAAAAAAAAC8AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							15,
+							1,
+							"insert",
+							{
+								"characters": " back"
+							},
+							"BQAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							16,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADcAAAAAAAAAOAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANwAAAAAAAAA3AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							17,
+							1,
+							"insert",
+							{
+								"characters": "to"
+							},
+							"AgAAADgAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA6AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							18,
+							1,
+							"insert",
+							{
+								"characters": " town"
+							},
+							"BQAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							1,
+							"insert",
+							{
+								"characters": " from"
+							},
+							"BQAAAD8AAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABBAAAAAAAAAAAAAABBAAAAAAAAAEIAAAAAAAAAAAAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							21,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEgAAAAAAAAASQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							22,
+							26,
+							"left_delete",
+							null,
+							"GgAAAEgAAAAAAAAASAAAAAAAAAABAAAAIEcAAAAAAAAARwAAAAAAAAABAAAAZUYAAAAAAAAARgAAAAAAAAABAAAAaEUAAAAAAAAARQAAAAAAAAABAAAAdEQAAAAAAAAARAAAAAAAAAABAAAAIEMAAAAAAAAAQwAAAAAAAAABAAAAbUIAAAAAAAAAQgAAAAAAAAABAAAAb0EAAAAAAAAAQQAAAAAAAAABAAAAckAAAAAAAAAAQAAAAAAAAAABAAAAZj8AAAAAAAAAPwAAAAAAAAABAAAAID4AAAAAAAAAPgAAAAAAAAABAAAAbj0AAAAAAAAAPQAAAAAAAAABAAAAdzwAAAAAAAAAPAAAAAAAAAABAAAAbzsAAAAAAAAAOwAAAAAAAAABAAAAdDoAAAAAAAAAOgAAAAAAAAABAAAAIDkAAAAAAAAAOQAAAAAAAAABAAAAbzgAAAAAAAAAOAAAAAAAAAABAAAAdDcAAAAAAAAANwAAAAAAAAABAAAAIDYAAAAAAAAANgAAAAAAAAABAAAAazUAAAAAAAAANQAAAAAAAAABAAAAYzQAAAAAAAAANAAAAAAAAAABAAAAYTMAAAAAAAAAMwAAAAAAAAABAAAAYjIAAAAAAAAAMgAAAAAAAAABAAAAIDEAAAAAAAAAMQAAAAAAAAABAAAAZzAAAAAAAAAAMAAAAAAAAAABAAAAbi8AAAAAAAAALwAAAAAAAAABAAAAaQ",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							23,
+							13,
+							"left_delete",
+							null,
+							"DQAAAC4AAAAAAAAALgAAAAAAAAABAAAAby0AAAAAAAAALQAAAAAAAAABAAAAZywAAAAAAAAALAAAAAAAAAABAAAAICsAAAAAAAAAKwAAAAAAAAABAAAAcioAAAAAAAAAKgAAAAAAAAABAAAAYSkAAAAAAAAAKQAAAAAAAAABAAAAYygAAAAAAAAAKAAAAAAAAAABAAAAICcAAAAAAAAAJwAAAAAAAAABAAAAZSYAAAAAAAAAJgAAAAAAAAABAAAAaCUAAAAAAAAAJQAAAAAAAAABAAAAdCQAAAAAAAAAJAAAAAAAAAABAAAAICMAAAAAAAAAIwAAAAAAAAABAAAAZiIAAAAAAAAAIgAAAAAAAAABAAAAbw",
+							"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							24,
+							9,
+							"left_delete",
+							null,
+							"CQAAACEAAAAAAAAAIQAAAAAAAAABAAAAICAAAAAAAAAAIAAAAAAAAAABAAAAax8AAAAAAAAAHwAAAAAAAAABAAAAYx4AAAAAAAAAHgAAAAAAAAABAAAAYR0AAAAAAAAAHQAAAAAAAAABAAAAYhwAAAAAAAAAHAAAAAAAAAABAAAAIBsAAAAAAAAAGwAAAAAAAAABAAAAZRoAAAAAAAAAGgAAAAAAAAABAAAAaBkAAAAAAAAAGQAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							25,
+							1,
+							"insert",
+							{
+								"characters": "h"
+							},
+							"AQAAABkAAAAAAAAAGgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							26,
+							1,
+							"left_delete",
+							null,
+							"AQAAABkAAAAAAAAAGQAAAAAAAAABAAAAaA",
+							"AQAAAAAAAAABAAAAGgAAAAAAAAAaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							27,
+							1,
+							"insert",
+							{
+								"characters": "the"
+							},
+							"AwAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							28,
+							1,
+							"insert",
+							{
+								"characters": " car"
+							},
+							"BAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAAeAAAAAAAAAB8AAAAAAAAAAAAAAB8AAAAAAAAAIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							29,
+							1,
+							"insert",
+							{
+								"characters": " heading"
+							},
+							"CAAAACAAAAAAAAAAIQAAAAAAAAAAAAAAIQAAAAAAAAAiAAAAAAAAAAAAAAAiAAAAAAAAACMAAAAAAAAAAAAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							30,
+							1,
+							"insert",
+							{
+								"characters": " out"
+							},
+							"BAAAACgAAAAAAAAAKQAAAAAAAAAAAAAAKQAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAALAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							31,
+							1,
+							"insert",
+							{
+								"characters": " o"
+							},
+							"AgAAACwAAAAAAAAALQAAAAAAAAAAAAAALQAAAAAAAAAuAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							32,
+							1,
+							"insert",
+							{
+								"characters": "f"
+							},
+							"AQAAAC4AAAAAAAAALwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							33,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAC8AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADIAAAAAAAAAAAAAADIAAAAAAAAAMwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							34,
+							1,
+							"insert",
+							{
+								"characters": " forest"
+							},
+							"BwAAADMAAAAAAAAANAAAAAAAAAAAAAAANAAAAAAAAAA1AAAAAAAAAAAAAAA1AAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANwAAAAAAAAAAAAAANwAAAAAAAAA4AAAAAAAAAAAAAAA4AAAAAAAAADkAAAAAAAAAAAAAADkAAAAAAAAAOgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMwAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							35,
+							1,
+							"insert",
+							{
+								"characters": " along"
+							},
+							"BgAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA8AAAAAAAAAD0AAAAAAAAAAAAAAD0AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAAAAAAEAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							36,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAEAAAAAAAAAAQQAAAAAAAAAAAAAAQQAAAAAAAABCAAAAAAAAAAAAAABCAAAAAAAAAEMAAAAAAAAAAAAAAEMAAAAAAAAARAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							37,
+							1,
+							"insert",
+							{
+								"characters": " ne"
+							},
+							"AwAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							38,
+							1,
+							"left_delete",
+							null,
+							"AQAAAEYAAAAAAAAARgAAAAAAAAABAAAAZQ",
+							"AQAAAAAAAAABAAAARwAAAAAAAABHAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							39,
+							1,
+							"insert",
+							{
+								"characters": "arrow"
+							},
+							"BQAAAEYAAAAAAAAARwAAAAAAAAAAAAAARwAAAAAAAABIAAAAAAAAAAAAAABIAAAAAAAAAEkAAAAAAAAAAAAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							40,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEsAAAAAAAAATAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASwAAAAAAAABLAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							42,
+							1,
+							"insert",
+							{
+								"characters": "dir"
+							},
+							"AwAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAABOAAAAAAAAAE8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATAAAAAAAAABMAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							43,
+							1,
+							"insert",
+							{
+								"characters": " t"
+							},
+							"AgAAAE8AAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABRAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							44,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFAAAAAAAAAAUAAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							45,
+							1,
+							"left_delete",
+							null,
+							"AQAAAE8AAAAAAAAATwAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							46,
+							1,
+							"insert",
+							{
+								"characters": "t"
+							},
+							"AQAAAE8AAAAAAAAAUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							47,
+							1,
+							"insert",
+							{
+								"characters": " road"
+							},
+							"BQAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							48,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							49,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFUAAAAAAAAAVQAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							50,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAAFUAAAAAAAAAVgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVQAAAAAAAABVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							51,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFYAAAAAAAAAVwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							52,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFYAAAAAAAAAVgAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							59,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											24
+										],
+										[
+											1,
+											46
+										],
+										"the car, heading out of",
+										null
+									]
+								]
+							},
+							"AQAAABkAAAAAAAAAMAAAAAAAAAAWAAAAdGhlIGNhciBoZWFkaW5nIG91dCBvZg",
+							"AQAAAAAAAAABAAAAJQAAAAAAAAAlAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							78,
+							1,
+							"insert",
+							{
+								"characters": "back"
+							},
+							"BAAAAB0AAAAAAAAAHgAAAAAAAAAAAAAAHgAAAAAAAAAfAAAAAAAAAAAAAAAfAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAIQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							79,
+							1,
+							"insert",
+							{
+								"characters": " of"
+							},
+							"AwAAACEAAAAAAAAAIgAAAAAAAAAAAAAAIgAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							80,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							81,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAACgAAAAAAAAAKQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							83,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAC0AAAAAAAAALgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							84,
+							2,
+							"left_delete",
+							null,
+							"AgAAAC0AAAAAAAAALQAAAAAAAAABAAAAICwAAAAAAAAALAAAAAAAAAABAAAALA",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							85,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							86,
+							1,
+							"insert",
+							{
+								"characters": " The"
+							},
+							"BAAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							87,
+							1,
+							"insert",
+							{
+								"characters": " wto"
+							},
+							"BAAAADEAAAAAAAAAMgAAAAAAAAAAAAAAMgAAAAAAAAAzAAAAAAAAAAAAAAAzAAAAAAAAADQAAAAAAAAAAAAAADQAAAAAAAAANQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							88,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADUAAAAAAAAANgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							89,
+							4,
+							"left_delete",
+							null,
+							"BAAAADUAAAAAAAAANQAAAAAAAAABAAAAIDQAAAAAAAAANAAAAAAAAAABAAAAbzMAAAAAAAAAMwAAAAAAAAABAAAAdDIAAAAAAAAAMgAAAAAAAAABAAAAdw",
+							"AQAAAAAAAAABAAAANgAAAAAAAAA2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							90,
+							1,
+							"insert",
+							{
+								"characters": "two"
+							},
+							"AwAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							91,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAADUAAAAAAAAANgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							93,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAACwAAAAAAAAALQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							94,
+							1,
+							"insert",
+							{
+								"characters": " h"
+							},
+							"AgAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							95,
+							1,
+							"insert",
+							{
+								"characters": "a"
+							},
+							"AQAAAC8AAAAAAAAAMAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALwAAAAAAAAAvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							96,
+							4,
+							"left_delete",
+							null,
+							"BAAAAC8AAAAAAAAALwAAAAAAAAABAAAAYS4AAAAAAAAALgAAAAAAAAABAAAAaC0AAAAAAAAALQAAAAAAAAABAAAAICwAAAAAAAAALAAAAAAAAAABAAAALA",
+							"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							100,
+							1,
+							"insert",
+							{
+								"characters": " girls"
+							},
+							"BgAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA3AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANQAAAAAAAAA1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							101,
+							1,
+							"insert",
+							{
+								"characters": " i"
+							},
+							"AgAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							102,
+							1,
+							"insert",
+							{
+								"characters": "n"
+							},
+							"AQAAAD0AAAAAAAAAPgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							103,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAAPwAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEEAAAAAAAAAAAAAAEEAAAAAAAAAQgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPgAAAAAAAAA+AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							104,
+							1,
+							"insert",
+							{
+								"characters": " front"
+							},
+							"BgAAAEIAAAAAAAAAQwAAAAAAAAAAAAAAQwAAAAAAAABEAAAAAAAAAAAAAABEAAAAAAAAAEUAAAAAAAAAAAAAAEUAAAAAAAAARgAAAAAAAAAAAAAARgAAAAAAAABHAAAAAAAAAAAAAABHAAAAAAAAAEgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAQgAAAAAAAABCAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							105,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEgAAAAAAAAASQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							106,
+							1,
+							"insert",
+							{
+								"characters": "chatted"
+							},
+							"BwAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAABLAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAABOAAAAAAAAAE8AAAAAAAAAAAAAAE8AAAAAAAAAUAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							107,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFAAAAAAAAAAUQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							108,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFAAAAAAAAAAUAAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							109,
+							7,
+							"left_delete",
+							null,
+							"BwAAAE8AAAAAAAAATwAAAAAAAAABAAAAZE4AAAAAAAAATgAAAAAAAAABAAAAZU0AAAAAAAAATQAAAAAAAAABAAAAdEwAAAAAAAAATAAAAAAAAAABAAAAdEsAAAAAAAAASwAAAAAAAAABAAAAYUoAAAAAAAAASgAAAAAAAAABAAAAaEkAAAAAAAAASQAAAAAAAAABAAAAYw",
+							"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							114,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAEgAAAAAAAAASQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASAAAAAAAAABIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							115,
+							1,
+							"insert",
+							{
+								"characters": "chatting"
+							},
+							"CAAAAEkAAAAAAAAASgAAAAAAAAAAAAAASgAAAAAAAABLAAAAAAAAAAAAAABLAAAAAAAAAEwAAAAAAAAAAAAAAEwAAAAAAAAATQAAAAAAAAAAAAAATQAAAAAAAABOAAAAAAAAAAAAAABOAAAAAAAAAE8AAAAAAAAAAAAAAE8AAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABRAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQAAAAAAAABJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							116,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFEAAAAAAAAAUgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							117,
+							1,
+							"left_delete",
+							null,
+							"AQAAAFEAAAAAAAAAUQAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							118,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFEAAAAAAAAAUgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							119,
+							1,
+							"insert",
+							{
+								"characters": "quietl"
+							},
+							"BgAAAFIAAAAAAAAAUwAAAAAAAAAAAAAAUwAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFUAAAAAAAAAAAAAAFUAAAAAAAAAVgAAAAAAAAAAAAAAVgAAAAAAAABXAAAAAAAAAAAAAABXAAAAAAAAAFgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							120,
+							1,
+							"insert",
+							{
+								"characters": "y,"
+							},
+							"AgAAAFgAAAAAAAAAWQAAAAAAAAAAAAAAWQAAAAAAAABaAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							121,
+							1,
+							"insert",
+							{
+								"characters": " b"
+							},
+							"AgAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							122,
+							1,
+							"insert",
+							{
+								"characters": "u"
+							},
+							"AQAAAFwAAAAAAAAAXQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							123,
+							2,
+							"left_delete",
+							null,
+							"AgAAAFwAAAAAAAAAXAAAAAAAAAABAAAAdVsAAAAAAAAAWwAAAAAAAAABAAAAYg",
+							"AQAAAAAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							124,
+							10,
+							"left_delete",
+							null,
+							"CgAAAFoAAAAAAAAAWgAAAAAAAAABAAAAIFkAAAAAAAAAWQAAAAAAAAABAAAALFgAAAAAAAAAWAAAAAAAAAABAAAAeVcAAAAAAAAAVwAAAAAAAAABAAAAbFYAAAAAAAAAVgAAAAAAAAABAAAAdFUAAAAAAAAAVQAAAAAAAAABAAAAZVQAAAAAAAAAVAAAAAAAAAABAAAAaVMAAAAAAAAAUwAAAAAAAAABAAAAdVIAAAAAAAAAUgAAAAAAAAABAAAAcVEAAAAAAAAAUQAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAWwAAAAAAAABbAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							125,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAAFEAAAAAAAAAUgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							126,
+							1,
+							"insert",
+							{
+								"characters": " but"
+							},
+							"BAAAAFIAAAAAAAAAUwAAAAAAAAAAAAAAUwAAAAAAAABUAAAAAAAAAAAAAABUAAAAAAAAAFUAAAAAAAAAAAAAAFUAAAAAAAAAVgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAUgAAAAAAAABSAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							127,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAFYAAAAAAAAAVwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVgAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							128,
+							1,
+							"insert",
+							{
+								"characters": "Lynette"
+							},
+							"BwAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAF0AAAAAAAAAAAAAAF0AAAAAAAAAXgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							129,
+							1,
+							"insert",
+							{
+								"characters": " c"
+							},
+							"AgAAAF4AAAAAAAAAXwAAAAAAAAAAAAAAXwAAAAAAAABgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							130,
+							1,
+							"insert",
+							{
+								"characters": "ouldn't"
+							},
+							"BwAAAGAAAAAAAAAAYQAAAAAAAAAAAAAAYQAAAAAAAABiAAAAAAAAAAAAAABiAAAAAAAAAGMAAAAAAAAAAAAAAGMAAAAAAAAAZAAAAAAAAAAAAAAAZAAAAAAAAABlAAAAAAAAAAAAAABlAAAAAAAAAGYAAAAAAAAAAAAAAGYAAAAAAAAAZwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							131,
+							1,
+							"insert",
+							{
+								"characters": " hear"
+							},
+							"BQAAAGcAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABpAAAAAAAAAAAAAABpAAAAAAAAAGoAAAAAAAAAAAAAAGoAAAAAAAAAawAAAAAAAAAAAAAAawAAAAAAAABsAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAZwAAAAAAAABnAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							132,
+							1,
+							"insert",
+							{
+								"characters": " what"
+							},
+							"BQAAAGwAAAAAAAAAbQAAAAAAAAAAAAAAbQAAAAAAAABuAAAAAAAAAAAAAABuAAAAAAAAAG8AAAAAAAAAAAAAAG8AAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAABxAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							133,
+							1,
+							"insert",
+							{
+								"characters": " they"
+							},
+							"BQAAAHEAAAAAAAAAcgAAAAAAAAAAAAAAcgAAAAAAAABzAAAAAAAAAAAAAABzAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAdQAAAAAAAAAAAAAAdQAAAAAAAAB2AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAcQAAAAAAAABxAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							134,
+							1,
+							"insert",
+							{
+								"characters": " said"
+							},
+							"BQAAAHYAAAAAAAAAdwAAAAAAAAAAAAAAdwAAAAAAAAB4AAAAAAAAAAAAAAB4AAAAAAAAAHkAAAAAAAAAAAAAAHkAAAAAAAAAegAAAAAAAAAAAAAAegAAAAAAAAB7AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAdgAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							135,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAHsAAAAAAAAAfAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAewAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							136,
+							1,
+							"left_delete",
+							null,
+							"AQAAAHsAAAAAAAAAewAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							137,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAAHsAAAAAAAAAfAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAewAAAAAAAAB7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							138,
+							1,
+							"insert",
+							{
+								"characters": " Even"
+							},
+							"BQAAAHwAAAAAAAAAfQAAAAAAAAAAAAAAfQAAAAAAAAB+AAAAAAAAAAAAAAB+AAAAAAAAAH8AAAAAAAAAAAAAAH8AAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACBAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAfAAAAAAAAAB8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							139,
+							1,
+							"insert",
+							{
+								"characters": " if"
+							},
+							"AwAAAIEAAAAAAAAAggAAAAAAAAAAAAAAggAAAAAAAACDAAAAAAAAAAAAAACDAAAAAAAAAIQAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAgQAAAAAAAACBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							140,
+							1,
+							"insert",
+							{
+								"characters": " she"
+							},
+							"BAAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACGAAAAAAAAAAAAAACGAAAAAAAAAIcAAAAAAAAAAAAAAIcAAAAAAAAAiAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAhAAAAAAAAACEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							141,
+							1,
+							"insert",
+							{
+								"characters": " could"
+							},
+							"BgAAAIgAAAAAAAAAiQAAAAAAAAAAAAAAiQAAAAAAAACKAAAAAAAAAAAAAACKAAAAAAAAAIsAAAAAAAAAAAAAAIsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACNAAAAAAAAAAAAAACNAAAAAAAAAI4AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAiAAAAAAAAACIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							142,
+							1,
+							"insert",
+							{
+								"characters": " hear"
+							},
+							"BQAAAI4AAAAAAAAAjwAAAAAAAAAAAAAAjwAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAJEAAAAAAAAAAAAAAJEAAAAAAAAAkgAAAAAAAAAAAAAAkgAAAAAAAACTAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAjgAAAAAAAACOAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							143,
+							1,
+							"insert",
+							{
+								"characters": " s"
+							},
+							"AgAAAJMAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACVAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							144,
+							1,
+							"left_delete",
+							null,
+							"AQAAAJQAAAAAAAAAlAAAAAAAAAABAAAAcw",
+							"AQAAAAAAAAABAAAAlQAAAAAAAACVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							145,
+							1,
+							"insert",
+							{
+								"characters": "th"
+							},
+							"AgAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							146,
+							2,
+							"left_delete",
+							null,
+							"AgAAAJUAAAAAAAAAlQAAAAAAAAABAAAAaJQAAAAAAAAAlAAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							147,
+							1,
+							"insert",
+							{
+								"characters": "she"
+							},
+							"AwAAAJQAAAAAAAAAlQAAAAAAAAAAAAAAlQAAAAAAAACWAAAAAAAAAAAAAACWAAAAAAAAAJcAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlAAAAAAAAACUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							148,
+							1,
+							"insert",
+							{
+								"characters": " proba"
+							},
+							"BgAAAJcAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACZAAAAAAAAAAAAAACZAAAAAAAAAJoAAAAAAAAAAAAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAlwAAAAAAAACXAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							149,
+							1,
+							"insert",
+							{
+								"characters": "bly"
+							},
+							"AwAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnQAAAAAAAACdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							150,
+							1,
+							"insert",
+							{
+								"characters": " wouldn't"
+							},
+							"CQAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAAClAAAAAAAAAAAAAAClAAAAAAAAAKYAAAAAAAAAAAAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							151,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAKkAAAAAAAAAqgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqQAAAAAAAACpAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							152,
+							9,
+							"left_delete",
+							null,
+							"CQAAAKkAAAAAAAAAqQAAAAAAAAABAAAAIKgAAAAAAAAAqAAAAAAAAAABAAAAdKcAAAAAAAAApwAAAAAAAAABAAAAJ6YAAAAAAAAApgAAAAAAAAABAAAAbqUAAAAAAAAApQAAAAAAAAABAAAAZKQAAAAAAAAApAAAAAAAAAABAAAAbKMAAAAAAAAAowAAAAAAAAABAAAAdaIAAAAAAAAAogAAAAAAAAABAAAAb6EAAAAAAAAAoQAAAAAAAAABAAAAdw",
+							"AQAAAAAAAAABAAAAqgAAAAAAAACqAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							153,
+							9,
+							"left_delete",
+							null,
+							"CQAAAKAAAAAAAAAAoAAAAAAAAAABAAAAIJ8AAAAAAAAAnwAAAAAAAAABAAAAeZ4AAAAAAAAAngAAAAAAAAABAAAAbJ0AAAAAAAAAnQAAAAAAAAABAAAAYpwAAAAAAAAAnAAAAAAAAAABAAAAYZsAAAAAAAAAmwAAAAAAAAABAAAAYpoAAAAAAAAAmgAAAAAAAAABAAAAb5kAAAAAAAAAmQAAAAAAAAABAAAAcpgAAAAAAAAAmAAAAAAAAAABAAAAcA",
+							"AQAAAAAAAAABAAAAoQAAAAAAAAChAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							154,
+							1,
+							"insert",
+							{
+								"characters": "wouldn't"
+							},
+							"CAAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAACdAAAAAAAAAJ4AAAAAAAAAAAAAAJ4AAAAAAAAAnwAAAAAAAAAAAAAAnwAAAAAAAACgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							155,
+							1,
+							"insert",
+							{
+								"characters": " understand"
+							},
+							"CwAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAACiAAAAAAAAAKMAAAAAAAAAAAAAAKMAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAAClAAAAAAAAAAAAAAClAAAAAAAAAKYAAAAAAAAAAAAAAKYAAAAAAAAApwAAAAAAAAAAAAAApwAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKkAAAAAAAAAAAAAAKkAAAAAAAAAqgAAAAAAAAAAAAAAqgAAAAAAAACrAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							156,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAAKsAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAACtAAAAAAAAAAAAAACtAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAqwAAAAAAAACrAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							157,
+							1,
+							"insert",
+							{
+								"characters": " ro"
+							},
+							"AwAAAK8AAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAACxAAAAAAAAAAAAAACxAAAAAAAAALIAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAArwAAAAAAAACvAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							158,
+							2,
+							"left_delete",
+							null,
+							"AgAAALEAAAAAAAAAsQAAAAAAAAABAAAAb7AAAAAAAAAAsAAAAAAAAAABAAAAcg",
+							"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							159,
+							1,
+							"insert",
+							{
+								"characters": "foreign"
+							},
+							"BwAAALAAAAAAAAAAsQAAAAAAAAAAAAAAsQAAAAAAAACyAAAAAAAAAAAAAACyAAAAAAAAALMAAAAAAAAAAAAAALMAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC1AAAAAAAAAAAAAAC1AAAAAAAAALYAAAAAAAAAAAAAALYAAAAAAAAAtwAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							160,
+							1,
+							"insert",
+							{
+								"characters": " lang"
+							},
+							"BQAAALcAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC5AAAAAAAAAAAAAAC5AAAAAAAAALoAAAAAAAAAAAAAALoAAAAAAAAAuwAAAAAAAAAAAAAAuwAAAAAAAAC8AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							161,
+							1,
+							"insert",
+							{
+								"characters": "uage."
+							},
+							"BQAAALwAAAAAAAAAvQAAAAAAAAAAAAAAvQAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwAAAAAAAAAAAAAAAwAAAAAAAAADBAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvAAAAAAAAAC8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							162,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMEAAAAAAAAAwgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							166,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											136
+										],
+										[
+											1,
+											159
+										],
+										"could hear, she wouldn't",
+										null
+									]
+								]
+							},
+							"AQAAAIkAAAAAAAAAoQAAAAAAAAAXAAAAY291bGQgaGVhciBzaGUgd291bGRuJ3Q",
+							"AQAAAAAAAAABAAAAlgAAAAAAAACWAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							179,
+							1,
+							"insert",
+							{
+								"characters": " what"
+							},
+							"BQAAAJMAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACVAAAAAAAAAAAAAACVAAAAAAAAAJYAAAAAAAAAAAAAAJYAAAAAAAAAlwAAAAAAAAAAAAAAlwAAAAAAAACYAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							180,
+							1,
+							"insert",
+							{
+								"characters": " they"
+							},
+							"BQAAAJgAAAAAAAAAmQAAAAAAAAAAAAAAmQAAAAAAAACaAAAAAAAAAAAAAACaAAAAAAAAAJsAAAAAAAAAAAAAAJsAAAAAAAAAnAAAAAAAAAAAAAAAnAAAAAAAAACdAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAmAAAAAAAAACYAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							181,
+							1,
+							"insert",
+							{
+								"characters": " said"
+							},
+							"BQAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAACfAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAoQAAAAAAAAAAAAAAoQAAAAAAAACiAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAnQAAAAAAAACdAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							187,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											124
+										],
+										[
+											1,
+											208
+										],
+										"She wouldn't understand the foreign language even if she could hear what they said.",
+										null
+									]
+								]
+							},
+							"AQAAAH0AAAAAAAAA0AAAAAAAAABUAAAARXZlbiBpZiBzaGUgY291bGQgaGVhciB3aGF0IHRoZXkgc2FpZCwgc2hlIHdvdWxkbid0IHVuZGVyc3RhbmQgdGhlIGZvcmVpZ24gbGFuZ3VhZ2Uu",
+							"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							193,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											177
+										],
+										[
+											1,
+											201
+										],
+										"she could listen to what they",
+										null
+									]
+								]
+							},
+							"AQAAALIAAAAAAAAAzwAAAAAAAAAYAAAAc2hlIGNvdWxkIGhlYXIgd2hhdCB0aGV5",
+							"AQAAAAAAAAABAAAAvQAAAAAAAAC9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							235,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											49
+										],
+										[
+											1,
+											71
+										],
+										"two girls were in the front",
+										null
+									]
+								]
+							},
+							"AQAAADIAAAAAAAAATQAAAAAAAAAWAAAAdHdvIGdpcmxzIGluIHRoZSBmcm9udA",
+							"AQAAAAAAAAABAAAAPQAAAAAAAAA9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							241,
+							2,
+							"right_delete",
+							null,
+							"AgAAADwAAAAAAAAAPAAAAAAAAAAEAAAAd2VyZTwAAAAAAAAAPAAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAPAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							246,
+							1,
+							"insert",
+							{
+								"characters": "T"
+							},
+							"AgAAAC4AAAAAAAAALwAAAAAAAAAAAAAALwAAAAAAAAAvAAAAAAAAAAUAAABUaGUgdA",
+							"AQAAAAAAAAABAAAALgAAAAAAAAAzAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							248,
+							1,
+							"insert",
+							{
+								"characters": " were"
+							},
+							"BQAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAABGAAAAAAAAAEcAAAAAAAAAAAAAAEcAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARAAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							257,
+							1,
+							"right_delete",
+							null,
+							"AQAAALwAAAAAAAAAvAAAAAAAAAAZAAAAIGxpc3RlbiB0byB3aGF0IHRoZXkgc2FpZA",
+							"AQAAAAAAAAABAAAAvAAAAAAAAADVAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							259,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAL0AAAAAAAAAvgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvQAAAAAAAAC9AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							260,
+							1,
+							"insert",
+							{
+								"characters": "They"
+							},
+							"BAAAAL4AAAAAAAAAvwAAAAAAAAAAAAAAvwAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAMEAAAAAAAAAAAAAAMEAAAAAAAAAwgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvgAAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							261,
+							1,
+							"insert",
+							{
+								"characters": " drove"
+							},
+							"BgAAAMIAAAAAAAAAwwAAAAAAAAAAAAAAwwAAAAAAAADEAAAAAAAAAAAAAADEAAAAAAAAAMUAAAAAAAAAAAAAAMUAAAAAAAAAxgAAAAAAAAAAAAAAxgAAAAAAAADHAAAAAAAAAAAAAADHAAAAAAAAAMgAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwgAAAAAAAADCAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							262,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMgAAAAAAAAAyQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAyAAAAAAAAADIAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							265,
+							2,
+							"right_delete",
+							null,
+							"AgAAAMkAAAAAAAAAyQAAAAAAAAALAAAAICAgIGhlYWRpbmfJAAAAAAAAAMkAAAAAAAAAAQAAACA",
+							"AQAAAAAAAAABAAAAyQAAAAAAAADUAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							270,
+							1,
+							"insert",
+							{
+								"characters": " they"
+							},
+							"BQAAAPUAAAAAAAAA9gAAAAAAAAAAAAAA9gAAAAAAAAD3AAAAAAAAAAAAAAD3AAAAAAAAAPgAAAAAAAAAAAAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA+QAAAAAAAAD6AAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9QAAAAAAAAD1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							271,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAPoAAAAAAAAA+wAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							272,
+							6,
+							"left_delete",
+							null,
+							"BgAAAPoAAAAAAAAA+gAAAAAAAAABAAAAIPkAAAAAAAAA+QAAAAAAAAABAAAAefgAAAAAAAAA+AAAAAAAAAABAAAAZfcAAAAAAAAA9wAAAAAAAAABAAAAaPYAAAAAAAAA9gAAAAAAAAABAAAAdPUAAAAAAAAA9QAAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAA+wAAAAAAAAD7AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							273,
+							1,
+							"insert",
+							{
+								"characters": "t"
+							},
+							"AQAAAPUAAAAAAAAA9gAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA9QAAAAAAAAD1AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							274,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPUAAAAAAAAA9QAAAAAAAAABAAAAdA",
+							"AQAAAAAAAAABAAAA9gAAAAAAAAD2AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							278,
+							1,
+							"insert",
+							{
+								"characters": "As"
+							},
+							"AgAAAL4AAAAAAAAAvwAAAAAAAAAAAAAAvwAAAAAAAADAAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAvgAAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							279,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAAMAAAAAAAAAAwQAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwAAAAAAAAADAAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							280,
+							1,
+							"right_delete",
+							null,
+							"AQAAAMEAAAAAAAAAwQAAAAAAAAABAAAAVA",
+							"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							281,
+							1,
+							"insert",
+							{
+								"characters": "t"
+							},
+							"AQAAAMEAAAAAAAAAwgAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwQAAAAAAAADBAAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							283,
+							1,
+							"left_delete",
+							null,
+							"AQAAAPgAAAAAAAAA+AAAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAHKVA"
+						],
+						[
+							284,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAAPgAAAAAAAAA+QAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA+AAAAAAAAAD4AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							285,
+							1,
+							"insert",
+							{
+								"characters": " Ly"
+							},
+							"AwAAAPkAAAAAAAAA+gAAAAAAAAAAAAAA+gAAAAAAAAD7AAAAAAAAAAAAAAD7AAAAAAAAAPwAAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							286,
+							1,
+							"insert",
+							{
+								"characters": "nette"
+							},
+							"BQAAAPwAAAAAAAAA/QAAAAAAAAAAAAAA/QAAAAAAAAD+AAAAAAAAAAAAAAD+AAAAAAAAAP8AAAAAAAAAAAAAAP8AAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAA/AAAAAAAAAD8AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							287,
+							1,
+							"insert",
+							{
+								"characters": " tried"
+							},
+							"BgAAAAEBAAAAAAAAAgEAAAAAAAAAAAAAAgEAAAAAAAADAQAAAAAAAAAAAAADAQAAAAAAAAQBAAAAAAAAAAAAAAQBAAAAAAAABQEAAAAAAAAAAAAABQEAAAAAAAAGAQAAAAAAAAAAAAAGAQAAAAAAAAcBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAAQEAAAAAAAABAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							288,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAAAcBAAAAAAAACAEAAAAAAAAAAAAACAEAAAAAAAAJAQAAAAAAAAAAAAAJAQAAAAAAAAoBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAABwEAAAAAAAAHAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							289,
+							1,
+							"insert",
+							{
+								"characters": " sleep."
+							},
+							"BwAAAAoBAAAAAAAACwEAAAAAAAAAAAAACwEAAAAAAAAMAQAAAAAAAAAAAAAMAQAAAAAAAA0BAAAAAAAAAAAAAA0BAAAAAAAADgEAAAAAAAAAAAAADgEAAAAAAAAPAQAAAAAAAAAAAAAPAQAAAAAAABABAAAAAAAAAAAAABABAAAAAAAAEQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAACgEAAAAAAAAKAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							290,
+							1,
+							"insert",
+							{
+								"characters": " She"
+							},
+							"BAAAABEBAAAAAAAAEgEAAAAAAAAAAAAAEgEAAAAAAAATAQAAAAAAAAAAAAATAQAAAAAAABQBAAAAAAAAAAAAABQBAAAAAAAAFQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEQEAAAAAAAARAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							291,
+							1,
+							"insert",
+							{
+								"characters": " was"
+							},
+							"BAAAABUBAAAAAAAAFgEAAAAAAAAAAAAAFgEAAAAAAAAXAQAAAAAAAAAAAAAXAQAAAAAAABgBAAAAAAAAAAAAABgBAAAAAAAAGQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFQEAAAAAAAAVAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							292,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABkBAAAAAAAAGgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQEAAAAAAAAZAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							314,
+							1,
+							"cut",
+							null,
+							"AQAAABIBAAAAAAAAEgEAAAAAAAAIAAAAU2hlIHdhcyA",
+							"AQAAAAAAAAABAAAAGgEAAAAAAAASAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							316,
+							1,
+							"trim_trailing_white_space",
+							null,
+							"AQAAABEBAAAAAAAAEQEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAEgEAAAAAAAASAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							322,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											189
+										],
+										[
+											1,
+											272
+										],
+										"Lynette tried to sleep as they drove out of the forest along the narrow dirt road.",
+										null
+									]
+								]
+							},
+							"AQAAAL4AAAAAAAAAEAEAAAAAAABTAAAAQXMgdGhleSBkcm92ZSBvdXQgb2YgdGhlIGZvcmVzdCBhbG9uZyB0aGUgbmFycm93IGRpcnQgcm9hZCwgTHluZXR0ZSB0cmllZCB0byBzbGVlcC4",
+							"AQAAAAAAAAABAAAAvgAAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							325,
+							1,
+							"left_delete",
+							null,
+							"AQAAAA8BAAAAAAAADwEAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							326,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAAA8BAAAAAAAAEAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwEAAAAAAAAPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							327,
+							1,
+							"insert",
+							{
+								"characters": " but"
+							},
+							"BAAAABABAAAAAAAAEQEAAAAAAAAAAAAAEQEAAAAAAAASAQAAAAAAAAAAAAASAQAAAAAAABMBAAAAAAAAAAAAABMBAAAAAAAAFAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							328,
+							1,
+							"insert",
+							{
+								"characters": " she"
+							},
+							"BAAAABQBAAAAAAAAFQEAAAAAAAAAAAAAFQEAAAAAAAAWAQAAAAAAAAAAAAAWAQAAAAAAABcBAAAAAAAAAAAAABcBAAAAAAAAGAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAEAAAAAAAAUAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							329,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABgBAAAAAAAAGQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGAEAAAAAAAAYAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							330,
+							10,
+							"left_delete",
+							null,
+							"CgAAABgBAAAAAAAAGAEAAAAAAAABAAAAIBcBAAAAAAAAFwEAAAAAAAABAAAAZRYBAAAAAAAAFgEAAAAAAAABAAAAaBUBAAAAAAAAFQEAAAAAAAABAAAAcxQBAAAAAAAAFAEAAAAAAAABAAAAIBMBAAAAAAAAEwEAAAAAAAABAAAAdBIBAAAAAAAAEgEAAAAAAAABAAAAdREBAAAAAAAAEQEAAAAAAAABAAAAYhABAAAAAAAAEAEAAAAAAAABAAAAIA8BAAAAAAAADwEAAAAAAAABAAAALA",
+							"AQAAAAAAAAABAAAAGQEAAAAAAAAZAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							331,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAAA8BAAAAAAAAEAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwEAAAAAAAAPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							332,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABABAAAAAAAAEQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							333,
+							2,
+							"left_delete",
+							null,
+							"AgAAABABAAAAAAAAEAEAAAAAAAABAAAAIA8BAAAAAAAADwEAAAAAAAABAAAALg",
+							"AQAAAAAAAAABAAAAEQEAAAAAAAARAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							334,
+							1,
+							"insert",
+							{
+								"characters": ","
+							},
+							"AQAAAA8BAAAAAAAAEAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAADwEAAAAAAAAPAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							335,
+							1,
+							"insert",
+							{
+								"characters": " but"
+							},
+							"BAAAABABAAAAAAAAEQEAAAAAAAAAAAAAEQEAAAAAAAASAQAAAAAAAAAAAAASAQAAAAAAABMBAAAAAAAAAAAAABMBAAAAAAAAFAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAEAEAAAAAAAAQAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							336,
+							1,
+							"insert",
+							{
+								"characters": " failed"
+							},
+							"BwAAABQBAAAAAAAAFQEAAAAAAAAAAAAAFQEAAAAAAAAWAQAAAAAAAAAAAAAWAQAAAAAAABcBAAAAAAAAAAAAABcBAAAAAAAAGAEAAAAAAAAAAAAAGAEAAAAAAAAZAQAAAAAAAAAAAAAZAQAAAAAAABoBAAAAAAAAAAAAABoBAAAAAAAAGwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAEAAAAAAAAUAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							337,
+							1,
+							"insert",
+							{
+								"characters": " "
+							},
+							"AQAAABsBAAAAAAAAHAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGwEAAAAAAAAbAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							338,
+							8,
+							"left_delete",
+							null,
+							"CAAAABsBAAAAAAAAGwEAAAAAAAABAAAAIBoBAAAAAAAAGgEAAAAAAAABAAAAZBkBAAAAAAAAGQEAAAAAAAABAAAAZRgBAAAAAAAAGAEAAAAAAAABAAAAbBcBAAAAAAAAFwEAAAAAAAABAAAAaRYBAAAAAAAAFgEAAAAAAAABAAAAYRUBAAAAAAAAFQEAAAAAAAABAAAAZhQBAAAAAAAAFAEAAAAAAAABAAAAIA",
+							"AQAAAAAAAAABAAAAHAEAAAAAAAAcAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							339,
+							1,
+							"insert",
+							{
+								"characters": " her"
+							},
+							"BAAAABQBAAAAAAAAFQEAAAAAAAAAAAAAFQEAAAAAAAAWAQAAAAAAAAAAAAAWAQAAAAAAABcBAAAAAAAAAAAAABcBAAAAAAAAGAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFAEAAAAAAAAUAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							340,
+							1,
+							"insert",
+							{
+								"characters": " mind"
+							},
+							"BQAAABgBAAAAAAAAGQEAAAAAAAAAAAAAGQEAAAAAAAAaAQAAAAAAAAAAAAAaAQAAAAAAABsBAAAAAAAAAAAAABsBAAAAAAAAHAEAAAAAAAAAAAAAHAEAAAAAAAAdAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGAEAAAAAAAAYAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							341,
+							1,
+							"insert",
+							{
+								"characters": " kept"
+							},
+							"BQAAAB0BAAAAAAAAHgEAAAAAAAAAAAAAHgEAAAAAAAAfAQAAAAAAAAAAAAAfAQAAAAAAACABAAAAAAAAAAAAACABAAAAAAAAIQEAAAAAAAAAAAAAIQEAAAAAAAAiAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAHQEAAAAAAAAdAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							342,
+							1,
+							"insert",
+							{
+								"characters": " wandeer"
+							},
+							"CAAAACIBAAAAAAAAIwEAAAAAAAAAAAAAIwEAAAAAAAAkAQAAAAAAAAAAAAAkAQAAAAAAACUBAAAAAAAAAAAAACUBAAAAAAAAJgEAAAAAAAAAAAAAJgEAAAAAAAAnAQAAAAAAAAAAAAAnAQAAAAAAACgBAAAAAAAAAAAAACgBAAAAAAAAKQEAAAAAAAAAAAAAKQEAAAAAAAAqAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAIgEAAAAAAAAiAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							343,
+							2,
+							"left_delete",
+							null,
+							"AgAAACkBAAAAAAAAKQEAAAAAAAABAAAAcigBAAAAAAAAKAEAAAAAAAABAAAAZQ",
+							"AQAAAAAAAAABAAAAKgEAAAAAAAAqAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							344,
+							1,
+							"insert",
+							{
+								"characters": "ring"
+							},
+							"BAAAACgBAAAAAAAAKQEAAAAAAAAAAAAAKQEAAAAAAAAqAQAAAAAAAAAAAAAqAQAAAAAAACsBAAAAAAAAAAAAACsBAAAAAAAALAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAKAEAAAAAAAAoAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							345,
+							1,
+							"insert",
+							{
+								"characters": " back"
+							},
+							"BQAAACwBAAAAAAAALQEAAAAAAAAAAAAALQEAAAAAAAAuAQAAAAAAAAAAAAAuAQAAAAAAAC8BAAAAAAAAAAAAAC8BAAAAAAAAMAEAAAAAAAAAAAAAMAEAAAAAAAAxAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAALAEAAAAAAAAsAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							346,
+							1,
+							"insert",
+							{
+								"characters": " to"
+							},
+							"AwAAADEBAAAAAAAAMgEAAAAAAAAAAAAAMgEAAAAAAAAzAQAAAAAAAAAAAAAzAQAAAAAAADQBAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAMQEAAAAAAAAxAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							347,
+							1,
+							"insert",
+							{
+								"characters": " the"
+							},
+							"BAAAADQBAAAAAAAANQEAAAAAAAAAAAAANQEAAAAAAAA2AQAAAAAAAAAAAAA2AQAAAAAAADcBAAAAAAAAAAAAADcBAAAAAAAAOAEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAANAEAAAAAAAA0AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							348,
+							1,
+							"insert",
+							{
+								"characters": " night"
+							},
+							"BgAAADgBAAAAAAAAOQEAAAAAAAAAAAAAOQEAAAAAAAA6AQAAAAAAAAAAAAA6AQAAAAAAADsBAAAAAAAAAAAAADsBAAAAAAAAPAEAAAAAAAAAAAAAPAEAAAAAAAA9AQAAAAAAAAAAAAA9AQAAAAAAAD4BAAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAOAEAAAAAAAA4AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							349,
+							1,
+							"insert",
+							{
+								"characters": " before,"
+							},
+							"CAAAAD4BAAAAAAAAPwEAAAAAAAAAAAAAPwEAAAAAAABAAQAAAAAAAAAAAABAAQAAAAAAAEEBAAAAAAAAAAAAAEEBAAAAAAAAQgEAAAAAAAAAAAAAQgEAAAAAAABDAQAAAAAAAAAAAABDAQAAAAAAAEQBAAAAAAAAAAAAAEQBAAAAAAAARQEAAAAAAAAAAAAARQEAAAAAAABGAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAPgEAAAAAAAA+AQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							350,
+							1,
+							"insert",
+							{
+								"characters": " t"
+							},
+							"AgAAAEYBAAAAAAAARwEAAAAAAAAAAAAARwEAAAAAAABIAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARgEAAAAAAABGAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							351,
+							1,
+							"insert",
+							{
+								"characters": "o"
+							},
+							"AQAAAEgBAAAAAAAASQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASAEAAAAAAABIAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							352,
+							1,
+							"insert",
+							{
+								"characters": " t"
+							},
+							"AgAAAEkBAAAAAAAASgEAAAAAAAAAAAAASgEAAAAAAABLAQAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAASQEAAAAAAABJAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							353,
+							6,
+							"left_delete",
+							null,
+							"BgAAAEoBAAAAAAAASgEAAAAAAAABAAAAdEkBAAAAAAAASQEAAAAAAAABAAAAIEgBAAAAAAAASAEAAAAAAAABAAAAb0cBAAAAAAAARwEAAAAAAAABAAAAdEYBAAAAAAAARgEAAAAAAAABAAAAIEUBAAAAAAAARQEAAAAAAAABAAAALA",
+							"AQAAAAAAAAABAAAASwEAAAAAAABLAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							354,
+							1,
+							"insert",
+							{
+								"characters": "."
+							},
+							"AQAAAEUBAAAAAAAARgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAARQEAAAAAAABFAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							359,
+							1,
+							"lsp_apply_document_edit",
+							{
+								"changes":
+								[
+									[
+										[
+											1,
+											276
+										],
+										[
+											1,
+											307
+										],
+										"her mind wandered back to",
+										null
+									]
+								]
+							},
+							"AQAAABUBAAAAAAAALgEAAAAAAAAfAAAAaGVyIG1pbmQga2VwdCB3YW5kZXJpbmcgYmFjayB0bw",
+							"AQAAAAAAAAABAAAAKQEAAAAAAAApAQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						],
+						[
+							"Packages/User/ipython3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/ipython3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/ipython3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Automatic"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Run (with args)..."
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Check"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Test (with args)..."
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Bench"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Clean"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Document"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Clippy"
+						],
+						[
+							"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+							"Script"
+						]
+					],
+					[
+						"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+						"Automatic"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Test"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Bench"
+						],
+						[
+							"Packages/Rust/Cargo.sublime-build",
+							"Clean"
+						]
+					],
+					[
+						"Packages/Rust/Cargo.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Rust/Rust.sublime-build",
+							""
+						],
+						[
+							"Packages/Rust/Rust.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/Rust/Rust.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 124.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"grammar",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"utils",
+						"Preferences: LSP Utils Settings"
+					],
+					[
+						"color",
+						"UI: Customize Color Scheme"
+					],
+					[
+						"lsp",
+						"Preferences: LSP Settings"
+					],
+					[
+						"package",
+						"Package Control: Remove Package"
+					],
+					[
+						"grammary",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"LSP: ",
+						"LSP: Code Action…"
+					],
+					[
+						"grammraly",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"pandoc",
+						"Pandoc: Convert a Pandoc file to PDF"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"gra",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"grfa",
+						"LSP-Grammarly: Log in to Grammarly through Third Party (Sends data to netlify function)"
+					],
+					[
+						"markdow",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"gramm",
+						"LSP-Grammarly: Check if logged in to Grammarly"
+					],
+					[
+						"gr",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"lsp: ",
+						"LSP: Enable Language Server Globally"
+					],
+					[
+						"lsp gra",
+						"Preferences: LSP-Grammarly Settings"
+					],
+					[
+						"browser",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"lsp gramm",
+						"LSP-Grammarly: Log in to Grammarly through Third Party (Sends data to netlify function)"
+					],
+					[
+						"package ",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"remve",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"package in",
+						"Package Control: Install Package"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: Insta",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: install ",
+						"Package Control: Install Package"
+					],
+					[
+						"gosublime",
+						"GoSublime: Do a sanity check"
+					],
+					[
+						"Package Control: up",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: sear",
+						"Package Control: Discover Packages"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 732.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"import urllib2",
+					"def a(b,c)",
+					"?",
+					"help",
+					"import version",
+					"python --version",
+					"version",
+					"import urllib2",
+					"exit",
+					"clear",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib3,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib3,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+					"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/ju/writing/fates_intersection",
+				"/home/ju/writing/fates_intersection/100_act1"
+			],
+			"file_history":
+			[
+				"/home/ju/writing/fates_intersection/100_act1/112b.md",
+				"/home/ju/writing/fates_intersection/100_act1/111.md",
+				"/home/ju/writing/fates_intersection/001_prologue.md",
+				"/home/ju/writing/fates_intersection/100_act1/112.md",
+				"/home/ju/writing/fates_intersection/100_act1/121.md",
+				"/home/ju/writing/fates_intersection/100_act1/131.md",
+				"/home/ju/writing/fates_intersection/100_act1/122.md",
+				"/home/ju/writing/fates_intersection/100_act1/100_act1_chemistry.md",
+				"/home/ju/writing/fates_intersection/100_act1/110_chapter1.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C060_scandinavian-city.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C050_singapore.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C040_shanghai.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C000_locations.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B100_main-characters.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B000_characters.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B215_gerald.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B214_ying.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B213_yixin.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A000_planning.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B212_chloe.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B211_jason.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B210_jun.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B209_fredrik.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B208_lucas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B207_jacob.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B206_mathias.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B205_thomas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B204_linda.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B203_jonas.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B202_martin.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B201_interviewer.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B200_side-characters.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B120_lynette.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B110_alex.md",
+				"/home/ju/writing/fates_intersection/100_act1/123.md",
+				"/home/ju/writing/fates_intersection/100_act1/112a.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C010_the-interview-office.md",
+				"/home/ju/writing/fates_intersection/000_fates-intersection.md",
+				"/home/ju/writing/fates_intersection/appendices/C/C001_the-summer-house.md",
+				"/home/ju/writing/fates_intersection/100_act1/199_conclusion.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B210_json.md",
+				"/home/ju/writing/fates_intersection/appendices/B/B211_jun.md",
+				"/home/ju/writing/fates_intersection/requirements.in",
+				"/home/ju/writing/fates_intersection/README.md",
+				"/home/ju/writing/fates_intersection/.gitignore",
+				"/home/ju/writing/fates_intersection/002_prologue.md",
+				"/home/ju/writing/fates_intersection/100_act1/130_chapter3.md",
+				"/home/ju/writing/fates_intersection/100_act1/122a.md",
+				"/home/ju/writing/fates_intersection/100_act1/120_chapter2.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A300_plot-progression.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A200_outline.md",
+				"/home/ju/writing/fates_intersection/appendices/A/A100_description.md",
+				"/home/ju/writing/fates_intersection/300_act3/300_act3_sociology.md",
+				"/home/ju/writing/fates_intersection/200_act2/200_act2_biology.md",
+				"/home/ju/writing/fates_intersection/900_epilogue.md",
+				"/home/ju/writing/fates_intersection/appendices/Appendicies.md",
+				"/home/ju/writing/fates_intersection/appendices/A200_plot-progression.md",
+				"/home/ju/writing/fates_intersection/appendices/A100_outline.md",
+				"/home/ju/writing/fates_intersection/122a_censored_sex-at-hotel.md",
+				"/home/ju/code/rpi_cluster/experiments/compositions/local-ping/README.md",
+				"/home/ju/code/rpi_cluster/documentation/install-docker-compose-on-rpi.md",
+				"/home/ju/code/rpi_cluster/experiments/services/javascript-ping-service/README.md",
+				"/home/ju/code/rpi_cluster/scripts/command_clients.py",
+				"/home/ju/code/rpi_cluster/experiments/python_ping_endpoint/app.py",
+				"/home/ju/code/rpi_cluster/experiments/compositions/local-ping-composition/docker-compose.yml",
+				"/home/ju/code/rpi_cluster/experiments/docker-compose.yml",
+				"/home/ju/code/rpi_cluster/experiments/python_ping_endpoint/main.py",
+				"/home/ju/code/rs-hs-github-sandbox/README.md",
+				"/home/ju/.config/sublime-text/Packages/GoSublime/USAGE.md",
+				"/home/ju/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+				"/home/ju/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/ju/Documents/code/anomaly_twoday/src/preprocess/__init__.py",
+				"/home/ju/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+				"/home/ju/Documents/code/crimepred/src/util/yaml_loader.py",
+				"/home/ju/Documents/rust/hashcode2019_rust/src/analyse.rs",
+				"/home/ju/Downloads/2019/b_lovely_landscapes.txt",
+				"/home/ju/Downloads/2019/e_shiny_selfies.txt",
+				"/home/ju/Downloads/2019/d_pet_pictures.txt",
+				"/home/ju/Downloads/2019/a_example (copy).txt",
+				"/home/ju/Downloads/2019/c_memorable_moments.txt",
+				"/home/ju/Documents/hashcode/hascode2019/verticals.py",
+				"/home/ju/Documents/hashcode/hascode2019/tags.py",
+				"/home/ju/Documents/hashcode/hascode2019/io.py",
+				"/home/ju/mnt/anomaly/anomaly/run_for_demo.py",
+				"/tmp/mozilla_ju0/README.md",
+				"/home/ju/Documents/azspc/hex_nums/visualize.py",
+				"/home/ju/Documents/rust/mal/ullen/src/main.rs",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/clustering.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/evaluation.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/clustering/reduce_dim.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/io_utils.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/user_obj.py",
+				"/home/ju/Documents/code/sentian_focus_master/tests/persistance/test_inner.py",
+				"/home/ju/Documents/code/sentian_focus_master/tests/persistance/test_io_utils.py",
+				"/home/ju/Documents/code/sentian_focus_master/sentian_focus/persistence/wrapper.py",
+				"/home/ju/Documents/code/crimepred/src/loading/risk_areas.py",
+				"/home/ju/Documents/code/crimepred/src/infer.py",
+				"/home/ju/Documents/code/crimepred/src/model.py",
+				"/home/ju/Documents/code/crimepred/config/config.yml",
+				"/home/ju/Documents/code/crimepred/src/preprocess.py",
+				"/home/ju/Documents/code/crimepred/src/autoencoder/train_autoencoder.py",
+				"/home/ju/Documents/code/crimepred/README.md",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_60_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_30_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_200_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/config/clustering/k_100_autoencoder.yml",
+				"/home/ju/Documents/code/crimepred/src/util/persistence.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/modelling.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/model_classes/model_base.py",
+				"/home/ju/Documents/code/crimepred/src/util/gis.py",
+				"/home/ju/Documents/code/crimepred/src/modelling/reporting.py",
+				"/home/ju/Documents/code/crimepred/src/util/export.py",
+				"/home/ju/Documents/code/crimepred/src/test_run.py",
+				"/home/ju/Documents/code/crimepred/src/export.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/aggregate.py",
+				"/home/ju/Documents/code/crimepred/src/preprocessing/filter.py",
+				"/home/ju/Documents/code/crimepred/config/filter/default.yml",
+				"/home/ju/data/crimepred/locations.py",
+				"/home/ju/Documents/code/crimepred/src/loading/locations.py",
+				"/home/ju/Documents/code/crimepred/src/loading/events.py",
+				"/home/ju/Documents/code/crimepred/src/util/geocoder.py",
+				"/home/ju/Documents/code/crimepred/config/filtering/default.yml",
+				"/home/ju/Documents/code/crimepred/config/risk_areas/scb.yml",
+				"/home/ju/Documents/code/crimepred/Dockerfile",
+				"/home/ju/Documents/code/crimepred/src/util/dataframe.py",
+				"/home/ju/Documents/code/crimepred/src/loading/features.py",
+				"/home/ju/Documents/code/crimepred/config/shapes/scb.yml",
+				"/home/ju/Documents/code/crimepred/src/util/timer.py"
+			],
+			"find":
+			{
+				"height": 37.0
+			},
+			"find_in_files":
+			{
+				"height": 232.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					">>",
+					"TODO>>",
+					"!include",
+					"---",
+					"B205_interviewer",
+					"!includ",
+					"include",
+					"-",
+					"slightly",
+					"But",
+					"\".",
+					"\",",
+					"\".",
+					"\",",
+					"him",
+					"-",
+					"erupting",
+					"very",
+					"easily",
+					"\"",
+					" \"",
+					"- \"",
+					"- ",
+					"curiosity",
+					"when",
+					"and",
+					"\n-",
+					"the",
+					"”",
+					"“",
+					"- ",
+					"CENSORED",
+					"Chemistry",
+					"::"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\""
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/ju/writing/fates_intersection"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/ju/writing/fates_intersection/100_act1/113.md",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 320,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										291,
+										291
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html, text.xml"
+										},
+										{
+											"rhs_empty": true,
+											"selector": "punctuation.accessor"
+										}
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content"
+									],
+									"lsp_active": true,
+									"lsp_hover_provider_count": 1,
+									"lsp_uri": "file:///home/ju/writing/fates_intersection/100_act1/113.md",
+									"show_definitions": false,
+									"syntax": "Packages/Pandoc Academic/Syntax/pandoc.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 37.0
+			},
+			"input":
+			{
+				"height": 80.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.9o:///home/ju/Documents/code/framework/sentian/toolkit":
+			{
+				"height": 381.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/gowiki":
+			{
+				"height": 184.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/hello":
+			{
+				"height": 184.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/ref_daemon":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/testsqlite":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/go_workspace/src/ada/testunixsocket_server":
+			{
+				"height": 178.0
+			},
+			"output.9o:///home/ju/Documents/code/sentian_focus/sentian_focus/datastructures":
+			{
+				"height": 156.0
+			},
+			"output.9o:///home/ju/mnt/aws_tmp/aws-inference/algorithms":
+			{
+				"height": 162.0
+			},
+			"output.9o:///home/ju/mnt/copernicus/Documents/code/securitas_PAR":
+			{
+				"height": 178.0
+			},
+			"output.GoSublime-main-output":
+			{
+				"height": 184.0
+			},
+			"output.GoSublime-output":
+			{
+				"height": 841.0
+			},
+			"output.LSP Log Panel":
+			{
+				"height": 377.0
+			},
+			"output.MarGo-output":
+			{
+				"height": 168.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 682.0
+			},
+			"output.diagnostics":
+			{
+				"height": 366.0
+			},
+			"output.exec":
+			{
+				"height": 640.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+			"position": "0,0,0,0,0,3440,24,6876,1413,6880,1440,1",
+			"project": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 650.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 494.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 333.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 285,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

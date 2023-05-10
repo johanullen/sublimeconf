@@ -23,14 +23,12 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABI
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 """
-from __future__ import unicode_literals
 from markdown import Extension
 from markdown.postprocessors import Postprocessor
 from . import util
 import os
 import base64
 import re
-# import traceback
 
 RE_SLASH_WIN_DRIVE = re.compile(r"^/[A-Za-z]{1}:/.*")
 
@@ -43,8 +41,11 @@ file_types = {
 RE_TAG_HTML = re.compile(
     r'''(?xus)
     (?:
-        (?P<comments>(\r?\n?\s*)<!--[\s\S]*?-->(\s*)(?=\r?\n)|<!--[\s\S]*?-->)|
-        (?P<open><(?P<tag>img))
+        (?P<avoid>
+            <\s*(?P<script_name>script|style)[^>]*>.*?</\s*(?P=script_name)\s*> |
+            (?:(\r?\n?\s*)<!--[\s\S]*?-->(\s*)(?=\r?\n)|<!--[\s\S]*?-->)
+        )|
+        (?P<open><\s*(?P<tag>img))
         (?P<attr>(?:\s+[\w\-:]+(?:\s*=\s*(?:"[^"]*"|'[^']*'))?)*)
         (?P<close>\s*(?:\/?)>)
     )
@@ -70,12 +71,7 @@ def repl_path(m, base_path):
     try:
         scheme, netloc, path, params, query, fragment, is_url, is_absolute = util.parse_url(m.group('path')[1:-1])
         if not is_url:
-            path = util.url2pathname(path).replace('\\', '/')
-            # Adjust /c:/ to c:/.
-            # If some 'nix OS is using a folder formated like a windows drive,
-            # too bad :).
-            if scheme == 'file' and RE_SLASH_WIN_DRIVE.match(path):
-                path = path[1:]
+            path = util.url2path(path)
 
         if is_absolute:
             file_name = os.path.normpath(path)
@@ -92,7 +88,6 @@ def repl_path(m, base_path):
                             base64.b64encode(f.read()).decode('ascii')
                         )
                     break
-
     except Exception:  # pragma: no cover
         # Parsing crashed and burned; no need to continue.
         pass
@@ -103,8 +98,8 @@ def repl_path(m, base_path):
 def repl(m, base_path):
     """Replace."""
 
-    if m.group('comments'):
-        tag = m.group('comments')
+    if m.group('avoid'):
+        tag = m.group('avoid')
     else:
         tag = m.group('open')
         tag += RE_TAG_LINK_ATTR.sub(lambda m2: repl_path(m2, base_path), m.group('attr'))
@@ -135,12 +130,12 @@ class B64Extension(Extension):
 
         super(B64Extension, self).__init__(*args, **kwargs)
 
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md):
         """Add base 64 tree processor to Markdown instance."""
 
         b64 = B64Postprocessor(md)
         b64.config = self.getConfigs()
-        md.postprocessors.add("b64", b64, "_end")
+        md.postprocessors.register(b64, "b64", 2)
         md.registerExtension(self)
 
 
