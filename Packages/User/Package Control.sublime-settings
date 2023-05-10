@@ -1,9 +1,9 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
+	/*"in_process_packages":
 	[
-	],
-	"installed_packages":
+	],*/
+	/*"installed_packages":
 	[
 		"BracketHighlighter",
 		"CFG Configuration Syntax Highlighting",
@@ -17,12 +17,19 @@
 		"Gofmt",
 		"GoImports",
 		"INI",
+		"LSP",
+		"LSP-Grammarly",
+		"Markdown Extended",
+		"MarkdownPreview",
 		"Package Control",
+		"Pandoc",
+		"Pandoc Academic",
 		"Python 3",
 		"Python Improved",
 		"Python PEP8 Autoformat",
 		"Rust Enhanced",
 		"RustFmt",
+		"ScopeHunter",
 		"Sublime Input",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
@@ -30,6 +37,6 @@
 		"SublimeREPL",
 		"Terrafmt",
 		"Terraform",
-		"TOML",
-	],
+		"TOML"
+	],*/
 }

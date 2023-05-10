@@ -1,0 +1,24 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+    "variables": {},
+    "globals": {},
+    "rules": [
+        {
+            "scope": "markup.error.lsp",
+            "foreground": "#FF5B5B"  // Bright red
+        },
+        {
+            "scope": "markup.warning.lsp",
+            "foreground": "#FFB86C"  // Bright orange
+        },
+        {
+            "scope": "markup.info.lsp",
+            "foreground": "#79C0FF"  // Bright blue
+        },
+        {
+            "scope": "markup.info.hint.lsp",
+            "foreground": "#B4A1FF"  // Bright purple
+        }
+    ]
+}
+
