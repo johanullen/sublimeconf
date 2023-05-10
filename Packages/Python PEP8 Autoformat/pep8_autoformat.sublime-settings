@@ -10,7 +10,7 @@
     "list-fixes": false,
 
     // do not fix these errors / warnings (e.g. [ "E501" , "E4" , "W"])
-    "ignore": [],
+    "ignore": ["E701"],
 
     // select errors / warnings (e.g. ["E4", "W"])
     "select": [],

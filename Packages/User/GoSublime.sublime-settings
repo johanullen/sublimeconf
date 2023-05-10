@@ -1,0 +1,7 @@
+{
+    "fmt_cmd": ["goimports"],
+    "fmt_tab_width": 4,
+    "env": {
+        "GOPATH": "/usr/local/go/bin"
+    }
+}

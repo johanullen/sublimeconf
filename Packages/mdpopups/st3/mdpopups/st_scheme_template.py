@@ -1,11 +1,11 @@
 """
 Sublime Text Scheme template.
 
-Converts scheme to css provides templating for
-additonal so that they can access the colors.
+Converts scheme to CSS provides templating for
+additional so that they can access the colors.
 
 Licensed under MIT
-Copyright (c) 2015 - 2016 Isaac Muse <isaacmuse@gmail.com>
+Copyright (c) 2015 - 2020 Isaac Muse <isaacmuse@gmail.com>
 
 ----------------------
 
@@ -16,20 +16,23 @@ https://manual.macromates.com/en/language_grammars#naming_conventions
 import sublime
 import re
 from . import version as ver
-from .rgba import RGBA
-from .st_color_scheme_matcher import ColorSchemeMatcher
-import jinja2
-from pygments.formatters import HtmlFormatter
+from .coloraide import util
+from .st_colormod import Color
+from . import jinja2
+from .pygments.formatters import HtmlFormatter
 from collections import OrderedDict
 from .st_clean_css import clean_css
 import copy
-import decimal
+import codecs
+import os
 
-NEW_SCHEMES = int(sublime.version()) >= 3150
+LOCATION = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_CSS_PATH = os.path.join(LOCATION, 'css', 'default.css')
 
 INVALID = -1
 POPUP = 0
 PHANTOM = 1
+SHEET = 2
 LUM_MIDPOINT = 127
 
 re_float_trim = re.compile(r'^(?P<keep>\d+)(?P<trash>\.0+|(?P<keep2>\.\d*[1-9])0+)$')
@@ -40,22 +43,164 @@ re_base_colors = re.compile(r'^\s*\.(?:dummy)\s*\{([^}]+)\}', re.MULTILINE)
 re_color = re.compile(r'(?<!-)(color\s*:\s*#[A-Fa-z\d]{6})')
 re_bgcolor = re.compile(r'(?<!-)(background(?:-color)?\s*:\s*#[A-Fa-z\d]{6})')
 re_pygments_selectors = re.compile(r'\.dummy (\.[a-zA-Z\d]+) ')
-CODE_BLOCKS = '.mdpopups .highlight, .mdpopups .inline-highlight { %s; %s; }'
+CODE_BLOCKS = '.mdpopups .highlight, .mdpopups .inline-highlight {{ {}; {}; }}'
+OLD_DEFAULT_CSS = 'Packages/mdpopups/css/default.css'
+DEFAULT_CSS = 'Packages/mdpopups/mdpopups_css/default.css'
 
 
-def fmt_float(f, p=0):
-    """Set float precision and trim precision zeros."""
+class _Filters:
+    """Color filters."""
 
-    string = str(
-        decimal.Decimal(f).quantize(decimal.Decimal('0.' + ('0' * p) if p > 0 else '0'), decimal.ROUND_HALF_UP)
-    )
+    @staticmethod
+    def colorize(color, deg):
+        """Colorize the color with the given hue."""
 
-    m = re_float_trim.match(string)
-    if m:
-        string = m.group('keep')
-        if m.group('keep2'):
-            string += m.group('keep2')
-    return string
+        if color.is_nan('hsl.hue'):
+            return
+        color.set('hsl.hue', deg % 360)
+
+    @staticmethod
+    def hue(color, deg):
+        """Shift the hue."""
+
+        if color.get('hsl.is_nan'):
+            return
+        h = color.get('hsl.hue')
+        h += deg
+        h = color.set('hsl.hue', h % 360)
+
+    @staticmethod
+    def contrast(color, factor):
+        """Adjust contrast."""
+
+        r, g, b = [util.round_half_up(util.clamp(c * 255, 0, 255)) for c in util.no_nan(color.coords())]
+        # Algorithm can't handle any thing beyond +/-255 (or a factor from 0 - 2)
+        # Convert factor between (-255, 255)
+        f = (util.clamp(factor, 0.0, 2.0) - 1.0) * 255.0
+        f = (259 * (f + 255)) / (255 * (259 - f))
+
+        # Increase/decrease contrast accordingly.
+        r = util.clamp(util.round_half_up((f * (r - 128)) + 128), 0, 255)
+        g = util.clamp(util.round_half_up((f * (g - 128)) + 128), 0, 255)
+        b = util.clamp(util.round_half_up((f * (b - 128)) + 128), 0, 255)
+        color.red = r / 255
+        color.green = g / 255
+        color.blue = b / 255
+
+    @staticmethod
+    def invert(color):
+        """Invert the color."""
+
+        r, g, b = [int(util.round_half_up(util.clamp(c * 255, 0, 255))) for c in util.no_nan(color.coords())]
+        r ^= 0xFF
+        g ^= 0xFF
+        b ^= 0xFF
+        color.red = r / 255
+        color.green = g / 255
+        color.blue = b / 255
+
+    @staticmethod
+    def saturation(color, factor):
+        """Saturate or unsaturate the color by the given factor."""
+
+        s = util.no_nan(color.get('hsl.saturation')) / 100.0
+        s = util.clamp(s + factor - 1.0, 0.0, 1.0)
+        color.set('hsl.saturation', s * 100)
+
+    @staticmethod
+    def grayscale(color):
+        """Convert the color with a grayscale filter."""
+
+        luminance = color.luminance()
+        color.red = luminance
+        color.green = luminance
+        color.blue = luminance
+
+    @staticmethod
+    def sepia(color):
+        """Apply a sepia filter to the color."""
+
+        red, green, blue = util.no_nan(color.coords())
+        r = util.clamp((red * .393) + (green * .769) + (blue * .189), 0, 1)
+        g = util.clamp((red * .349) + (green * .686) + (blue * .168), 0, 1)
+        b = util.clamp((red * .272) + (green * .534) + (blue * .131), 0, 1)
+        color.red = r
+        color.green = g
+        color.blue = b
+
+    @staticmethod
+    def _get_overage(c):
+        """Get overage."""
+
+        if c < 0.0:
+            o = 0.0 + c
+            c = 0.0
+        elif c > 255.0:
+            o = c - 255.0
+            c = 255.0
+        else:
+            o = 0.0
+        return o, c
+
+    @staticmethod
+    def _distribute_overage(c, o, s):
+        """Distribute overage."""
+
+        channels = len(s)
+        if channels == 0:
+            return c
+        parts = o / len(s)
+        if "r" in s and "g" in s:
+            c = c[0] + parts, c[1] + parts, c[2]
+        elif "r" in s and "b" in s:
+            c = c[0] + parts, c[1], c[2] + parts
+        elif "g" in s and "b" in s:
+            c = c[0], c[1] + parts, c[2] + parts
+        elif "r" in s:
+            c = c[0] + parts, c[1], c[2]
+        elif "g" in s:
+            c = c[0], c[1] + parts, c[2]
+        else:  # "b" in s:
+            c = c[0], c[1], c[2] + parts
+        return c
+
+    @classmethod
+    def brightness(cls, color, factor):
+        """
+        Adjust the brightness by the given factor.
+
+        Brightness is determined by perceived luminance.
+        """
+
+        red, green, blue = [util.round_half_up(util.clamp(c * 255, 0, 255)) for c in util.no_nan(color.coords())]
+        channels = ["r", "g", "b"]
+        total_lumes = util.clamp(util.clamp(color.luminance(), 0, 1) * 255 + (255.0 * factor) - 255.0, 0.0, 255.0)
+
+        if total_lumes == 255.0:
+            # white
+            r, g, b = 1, 1, 1
+        elif total_lumes == 0.0:
+            # black
+            r, g, b = 0, 0, 0
+        else:
+            # Adjust Brightness
+            pts = (total_lumes - util.clamp(color.luminance(), 0, 1) * 255)
+            slots = set(channels)
+            components = [float(red) + pts, float(green) + pts, float(blue) + pts]
+            count = 0
+            for c in channels:
+                overage, components[count] = cls._get_overage(components[count])
+                if overage:
+                    slots.remove(c)
+                    components = list(cls._distribute_overage(components, overage, slots))
+                count += 1
+
+            r = util.clamp(util.round_half_up(components[0]), 0, 255) / 255.0
+            g = util.clamp(util.round_half_up(components[1]), 0, 255) / 255.0
+            b = util.clamp(util.round_half_up(components[2]), 0, 255) / 255.0
+        color.red = r
+        color.green = g
+        color.blue = b
 
 
 class SchemeTemplate(object):
@@ -73,42 +218,31 @@ class SchemeTemplate(object):
     def guess_style(self, view, scope, selected=False, explicit_background=False):
         """Guess color."""
 
-        # Remove leading '.' to account for old style CSS class scopes.
-        if not NEW_SCHEMES:
-            return self.csm.guess_color(scope.lstrip('.'), selected, explicit_background)
-        else:
-            scope_style = view.style_for_scope(scope.lstrip('.'))
-            style = {}
-            style['foreground'] = scope_style['foreground']
-            style['background'] = scope_style.get('background')
-            style['bold'] = scope_style['bold']
-            style['italic'] = scope_style['italic']
+        # Remove leading '.' to account for old style CSS
+        scope_style = view.style_for_scope(scope.lstrip('.'))
+        style = {}
+        style['foreground'] = scope_style['foreground']
+        style['background'] = scope_style.get('background')
+        style['bold'] = scope_style.get('bold', False)
+        style['italic'] = scope_style.get('italic', False)
+        style['underline'] = scope_style.get('underline', False)
+        style['glow'] = scope_style.get('glow', False)
 
-            defaults = view.style()
-            if not explicit_background and not style.get('background'):
-                style['background'] = defaults.get('background', '#FFFFFF')
-            if selected:
-                sfg = scope_style.get('selection_forground', defaults.get('selection_forground'))
-                if sfg:
-                    style['foreground'] = sfg
-                style['background'] = scope_style.get('selection', '#0000FF')
-            return style
+        defaults = view.style()
+        if not explicit_background and not style.get('background'):
+            style['background'] = defaults.get('background', '#FFFFFF')
+        if selected:
+            sfg = scope_style.get('selection_foreground', defaults.get('selection_foreground'))
+            if sfg != '#00000000':
+                style['foreground'] = sfg
+            style['background'] = defaults.get('selection', '#0000FF')
+        return style
 
-    def legacy_parse_global(self):
-        """
-        Parse global settings.
+    def get_variables(self):
+        """Get variables."""
 
-        LEGACY.
-        """
-
-        self.csm = ColorSchemeMatcher(self.scheme_file)
-
-        # Get general theme colors from color scheme file
-        self.bground = self.csm.special_colors['background']['color_simulated']
-        rgba = RGBA(self.bground)
-        self.lums = rgba.get_true_luminance()
-        is_dark = self.lums <= LUM_MIDPOINT
-        self._variables = {
+        is_dark = self.is_dark()
+        return {
             "is_dark": is_dark,
             "is_light": not is_dark,
             "sublime_version": int(sublime.version()),
@@ -117,30 +251,11 @@ class SchemeTemplate(object):
             "use_pygments": self.use_pygments,
             "default_style": self.default_style
         }
-        self.html_border = rgba.get_rgb()
-        self.fground = self.csm.special_colors['foreground']['color_simulated']
-
-    def get_variables(self):
-        """Get variables."""
-
-        if NEW_SCHEMES:
-            is_dark = self.is_dark()
-            return {
-                "is_dark": is_dark,
-                "is_light": not is_dark,
-                "sublime_version": int(sublime.version()),
-                "mdpopups_version": ver.version(),
-                "color_scheme": self.scheme_file,
-                "use_pygments": self.use_pygments,
-                "default_style": self.default_style
-            }
-        else:
-            return self._variables
 
     def get_html_border(self):
-        """Get html border."""
+        """Get HTML border."""
 
-        return self.get_bg() if NEW_SCHEMES else self.html_border
+        return self.get_bg()
 
     def is_dark(self):
         """Check if scheme is dark."""
@@ -150,22 +265,19 @@ class SchemeTemplate(object):
     def get_lums(self):
         """Get luminance."""
 
-        if NEW_SCHEMES:
-            bg = self.get_bg()
-            rgba = RGBA(bg)
-            return rgba.get_true_luminance()
-        else:
-            return self.lums
+        bg = self.get_bg()
+        rgba = Color(bg)
+        return rgba.luminance()
 
     def get_fg(self):
         """Get foreground."""
 
-        return self.view.style().get('foreground', '#000000') if NEW_SCHEMES else self.fground
+        return self.view.style().get('foreground', '#000000')
 
     def get_bg(self):
-        """Get backtround."""
+        """Get background."""
 
-        return self.view.style().get('background', '#FFFFFF') if NEW_SCHEMES else self.bground
+        return self.view.style().get('background', '#FFFFFF')
 
     def setup(self):
         """Setup the template environment."""
@@ -173,9 +285,6 @@ class SchemeTemplate(object):
         settings = sublime.load_settings("Preferences.sublime-settings")
         self.use_pygments = not settings.get('mdpopups.use_sublime_highlighter', True)
         self.default_style = settings.get('mdpopups.default_style', True)
-
-        if not NEW_SCHEMES:
-            self.legacy_parse_global()
 
         # Create Jinja template
         self.env = jinja2.Environment()
@@ -202,9 +311,23 @@ class SchemeTemplate(object):
             var.update(
                 {
                     'is_phantom': self.css_type == PHANTOM,
-                    'is_popup': self.css_type == POPUP
+                    'is_popup': self.css_type == POPUP,
+                    'is_sheet': self.css_type == SHEET
                 }
             )
+
+            if css == OLD_DEFAULT_CSS:
+                css = DEFAULT_CSS
+
+            if css == DEFAULT_CSS:
+                css = ''
+                try:
+                    with codecs.open(DEFAULT_CSS_PATH, encoding='utf-8') as f:
+                        css = clean_css(f.read())
+                except Exception:
+                    pass
+
+                return self.env.from_string(css).render(var=var, plugin=self.plugin_vars)
 
             return self.env.from_string(
                 clean_css(sublime.load_resource(css))
@@ -221,9 +344,10 @@ class SchemeTemplate(object):
         try:
             parts = [c.strip('; ') for c in css.split(':')]
             if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-                rgba = RGBA(parts[1] + "%02f" % int(255.0 * max(min(float(factor), 1.0), 0.0)))
-                rgba.apply_alpha(self.get_bg())
-                return '%s: %s; ' % (parts[0], rgba.get_rgb())
+                rgba = Color(parts[1])
+                rgba.alpha = max(min(float(factor), 1.0), 0.0)
+                rgba.compose(self.get_bg())
+                return '{}: {}; '.format(parts[0], rgba.to_string(hex=True))
         except Exception:
             pass
         return css
@@ -233,10 +357,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.colorize(degree)
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.colorize(rgba, degree)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def hue(self, css, degree):
@@ -244,10 +368,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.hue(degree)
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.hue(rgba, degree)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def invert(self, css):
@@ -255,10 +379,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.invert()
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.invert(rgba)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def contrast(self, css, factor):
@@ -266,10 +390,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.contrast(factor)
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.contrast(rgba, factor)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def saturation(self, css, factor):
@@ -277,10 +401,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.saturation(factor)
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.saturation(rgba, factor)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def grayscale(self, css):
@@ -288,10 +412,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.grayscale()
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.grayscale(rgba)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def sepia(self, css):
@@ -299,10 +423,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.sepia()
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.sepia(rgba)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def brightness(self, css, factor):
@@ -310,10 +434,10 @@ class SchemeTemplate(object):
 
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] in ('background-color', 'color'):
-            rgba = RGBA(parts[1])
-            rgba.brightness(factor)
-            parts[1] = "%s; " % rgba.get_rgb()
-            return '%s: %s ' % (parts[0], parts[1])
+            rgba = Color(parts[1])
+            _Filters.brightness(rgba, factor)
+            parts[1] = "{}; ".format(rgba.to_string(hex=True))
+            return '{}: {} '.format(parts[0], parts[1])
         return css
 
     def to_fg(self, css):
@@ -322,7 +446,7 @@ class SchemeTemplate(object):
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] == 'background-color':
             parts[0] = 'color'
-            return '%s: %s; ' % (parts[0], parts[1])
+            return '{}: {}; '.format(parts[0], parts[1])
         return css
 
     def to_bg(self, css):
@@ -331,58 +455,58 @@ class SchemeTemplate(object):
         parts = [c.strip('; ') for c in css.split(':')]
         if len(parts) == 2 and parts[0] == 'color':
             parts[0] = 'background-color'
-            return '%s: %s; ' % (parts[0], parts[1])
+            return '{}: {}; '.format(parts[0], parts[1])
         return css
 
     def pygments(self, style):
-        """Get pygments style."""
+        """Get Pygments style."""
 
         return get_pygments(style)
 
     def retrieve_selector(self, selector, key=None, explicit_background=True):
         """Get the CSS key, value pairs for a rule."""
 
-        if NEW_SCHEMES:
-            general = self.view.style()
-            fg = general.get('foreground', '#000000')
-            bg = general.get('background', '#ffffff')
-            scope = self.view.style_for_scope(selector)
-            style = []
-            if scope['bold']:
-                style.append('bold')
-            if scope['italic']:
-                style.append('italic')
-            color = scope.get('foreground', fg)
-            bgcolor = scope.get('background', (None if explicit_background else bg))
-        else:
-            scope = self.guess_style(self.view, selector, explicit_background=explicit_background)
-            color = scope.fg_simulated
-            bgcolor = scope.bg_simulated
-            style = scope.style.split(' ')
+        general = self.view.style()
+        fg = general.get('foreground', '#000000')
+        bg = general.get('background', '#ffffff')
+        scope = self.view.style_for_scope(selector)
+        style = []
+        if scope.get('bold', False):
+            style.append('bold')
+        if scope.get('italic', False):
+            style.append('italic')
+        if scope.get('underline', False):
+            style.append('underline')
+        if scope.get('glow', False):
+            style.append('glow')
+        color = scope.get('foreground', fg)
+        bgcolor = scope.get('background', (None if explicit_background else bg))
 
         css = []
         if color and (key is None or key == 'color'):
-            css.append('color: %s' % color)
+            css.append('color: {}'.format(color))
         if bgcolor and (key is None or key == 'background-color'):
-            css.append('background-color: %s' % bgcolor)
+            css.append('background-color: {}'.format(bgcolor))
         for s in style:
             if "bold" in s and (key is None or key == 'font-weight'):
                 css.append('font-weight: bold')
             if "italic" in s and (key is None or key == 'font-style'):
                 css.append('font-style: italic')
-            if "underline" in s and (key is None or key == 'text-decoration') and False:  # disabled
+            if "underline" in s and (key is None or key == 'text-decoration'):
                 css.append('text-decoration: underline')
+            if "glow" in s and (key is None or key == 'text-shadow'):
+                css.append('text-shadow: 0 0 3px currentColor')
         text = ';'.join(css)
         if text:
             text += ';'
         return text
 
     def apply_template(self, view, css, css_type, template_vars=None):
-        """Apply template to css."""
+        """Apply template to CSS."""
 
         self.view = view
 
-        if css_type not in (POPUP, PHANTOM):
+        if css_type not in (POPUP, PHANTOM, SHEET):
             return ''
 
         self.css_type = css_type
@@ -397,7 +521,8 @@ class SchemeTemplate(object):
         var.update(
             {
                 'is_phantom': self.css_type == PHANTOM,
-                'is_popup': self.css_type == POPUP
+                'is_popup': self.css_type == POPUP,
+                'is_sheet': self.css_type == SHEET
             }
         )
 
@@ -406,9 +531,9 @@ class SchemeTemplate(object):
 
 def get_pygments(style):
     """
-    Get pygments style.
+    Get Pygments style.
 
-    Subllime CSS support is limited.  It cannot handle well
+    Sublime CSS support is limited.  It cannot handle well
     things like: `.class1 .class2`,  but it can handle things like:
     `.class1.class2`.  So we will not use things like `.highlight` in front.
 
@@ -419,7 +544,7 @@ def get_pygments(style):
     """
 
     try:
-        # Lets see if we can find the pygments theme
+        # Lets see if we can find the Pygments theme
         text = HtmlFormatter(style=style).get_style_defs('.dummy')
         text = re_missing_semi_colon.sub('; }', text)
     except Exception:
@@ -447,14 +572,14 @@ def get_pygments(style):
     if fg is None:
         fg = 'color: #000000'
 
-    # Reassemble replacing .highlight {...} with .codehilite, .inlinehilite {...}
+    # Reassemble replacing .highlight {...} with `.codehilite`, `.inlinehilite` {...}
     # All other classes will be left bare with only their syntax class.
     code_blocks = CODE_BLOCKS
     if m:
         css = clean_css(
             (
                 text[:m.start(0)] +
-                (code_blocks % (bg, fg)) +
+                (code_blocks.format(bg, fg)) +
                 text[m.end(0):] +
                 '\n'
             )
@@ -462,7 +587,7 @@ def get_pygments(style):
     else:
         css = clean_css(
             (
-                (code_blocks % (bg, fg)) + '\n' + text + '\n'
+                (code_blocks.format(bg, fg)) + '\n' + text + '\n'
             )
         )
 

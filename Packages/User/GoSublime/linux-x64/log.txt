@@ -936,3 +936,1497 @@ exception: `Cannot find command `go``
 MarGo: Missing required environment variables: GOROOT
 See the `Quirks` section of USAGE.md for info
 --------------------------------
+
+** 2022-06-07 23:11:04.260238 **:
+MarGo: MarGo build failed
+cmd: `['', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go?.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+
+`
+exception: `Cannot find command `go``
+--------------------------------
+
+** 2022-06-07 23:11:04.262100 **:
+MarGo: Missing required environment variables: GOROOT
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2022-06-07 23:14:21.115142 **:
+MarGo: MarGo build failed
+cmd: `['', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go?.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+
+`
+exception: `Cannot find command `go``
+--------------------------------
+
+** 2022-06-07 23:14:21.117535 **:
+MarGo: Missing required environment variables: GOROOT
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+
+** 2022-06-08 13:41:37.858195 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 13:43:11.041554 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 13:56:12.934770 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:38:52.463472 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:50:53.314876 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:51:46.449636 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:52:47.669194 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:56:15.939363 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 14:59:38.644729 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 15:11:33.238035 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 15:14:57.963625 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-08 15:16:06.579284 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-09 08:44:09.508091 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-09 10:05:00.286628 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-10 12:03:53.616697 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-10 15:45:34.081010 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-13 09:01:11.408218 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-14 12:03:49.726284 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-15 14:02:32.543687 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-16 10:38:34.596662 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-16 13:32:04.995586 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-20 10:38:48.855444 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-21 13:28:59.672724 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-27 09:46:29.317216 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-28 10:14:42.425526 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-06-28 14:28:41.003358 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-01 09:31:20.841781 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-04 12:28:32.820355 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-07 09:26:51.218335 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-11 09:14:57.566462 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-11 09:52:16.212674 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-13 09:19:24.617715 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-13 10:06:06.562321 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-14 14:34:20.707012 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-15 10:39:44.294443 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-07-15 15:07:32.735960 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-08 09:49:23.251836 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-09 11:37:03.345854 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-10 15:54:18.215409 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-11 12:06:30.342317 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-16 11:33:28.223139 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-17 12:07:13.787380 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-18 10:38:54.834370 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-19 11:25:49.012204 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-22 11:10:30.829078 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-29 15:31:13.264576 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-08-30 13:55:53.202557 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-02 13:52:02.909471 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-05 15:06:27.368514 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-08 10:53:48.696490 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-09 09:15:59.790048 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-09 10:44:25.649023 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-09 14:46:43.295730 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-12 09:11:35.370217 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-13 11:24:02.388615 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-19 12:51:16.305036 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-09-20 11:34:58.216888 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-03 13:56:03.823840 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-06 09:03:20.952299 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-11 11:25:18.058223 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-12 09:24:08.632564 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-17 11:36:42.155937 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-18 13:28:01.150022 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-26 10:38:34.386393 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-28 10:26:37.283744 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-10-31 13:27:34.630709 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-02 13:32:21.720767 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-04 10:43:51.780515 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-07 13:39:51.651819 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-11 10:51:23.342709 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-14 13:12:06.982973 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-14 14:50:43.180912 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-16 15:13:52.600416 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-17 09:04:46.670604 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-17 09:10:20.572532 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-21 15:06:40.678101 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-28 11:09:57.752382 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-28 15:31:16.644273 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-11-29 14:00:03.656492 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-01 09:05:49.041737 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-02 09:24:32.342365 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-12 09:16:16.722473 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-15 15:35:47.169129 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-19 10:43:30.971627 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-22 10:26:04.503496 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-23 09:32:42.956026 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-23 11:36:27.751323 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2022-12-29 11:38:45.147688 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-03 10:39:46.629057 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-10 11:15:00.914529 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-13 10:05:01.491138 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-16 09:23:16.484912 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-17 09:24:52.429227 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-18 11:28:59.030656 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-19 09:37:30.602116 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-23 11:20:23.205900 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-25 09:30:24.564427 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-26 10:26:34.905167 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-31 14:47:38.142127 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-01-31 16:13:00.510962 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-02 13:50:16.673892 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-03 15:07:53.212559 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-06 09:24:28.429493 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-09 09:28:14.914448 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 13:53:55.704301 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 14:45:49.789587 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 14:50:11.588768 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 14:50:30.313309 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 20:56:39.142148 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 22:33:54.034378 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-14 23:22:32.250389 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-15 09:50:16.980452 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-16 15:25:04.438232 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-20 09:31:01.897950 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-21 11:18:36.966724 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-02-27 09:12:53.955458 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-02 09:39:22.011682 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-02 11:54:48.623889 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-02 15:35:22.998868 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-03 12:06:07.985865 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-03 12:06:29.228145 **:
+GsComplete: Abort. Cannot start MarGo: Exception: Cannot find command `/home/joull2/.config/sublime-text/Packages/User/GoSublime/linux-x64/bin/gosublime.margo_r18.07.22-1_go1.18.3.exe`
+--------------------------------
+
+** 2023-03-06 09:30:48.509026 **:
+MarGo: MarGo build failed
+cmd: `['/usr/local/go/bin/go', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r18.07.22-1_go1.18.3.exe', 'gosublime/cmd/margo']`
+stdout: `
+
+`
+stderr: `
+package gosublime/cmd/margo is not in GOROOT (/usr/local/go/src/gosublime/cmd/margo)
+`
+exception: `None`
+--------------------------------
+
+** 2023-03-06 12:53:11.264176 **:
+GsComplete: Abort. Cannot start MarGo: Exception: Cannot find command `/home/joull2/.config/sublime-text/Packages/User/GoSublime/linux-x64/bin/gosublime.margo_r18.07.22-1_go1.18.3.exe`
+--------------------------------

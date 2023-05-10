@@ -1,0 +1,6 @@
+{
+  "cmds": [
+    ["/home/joull2/go//bin//goimports", "-e", "-s"]
+  ],
+  "format_on_save": true
+}

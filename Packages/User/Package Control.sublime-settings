@@ -7,9 +7,15 @@
 	[
 		"BracketHighlighter",
 		"CFG Configuration Syntax Highlighting",
+		"Compare Side-By-Side",
+		"DiffTabs",
 		"Dockerfile Syntax Highlighting",
+		"EasyDiff",
+		"Gherkin (Cucumber) Formatter",
+		"Gherkin Auto-Complete Plus",
 		"Git blame",
-		"GoSublime",
+		"Gofmt",
+		"GoImports",
 		"INI",
 		"Package Control",
 		"Python 3",
@@ -22,6 +28,8 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-pylint",
 		"SublimeREPL",
-		"TOML"
-	]
+		"Terrafmt",
+		"Terraform",
+		"TOML",
+	],
 }
