@@ -3,7 +3,7 @@
 	"color_scheme": "Packages/User/Sunburst (Flake8Lint).tmTheme",
 	"drag_text": false,
 	"font_face": "",
-	"font_size": 13,
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"SublimeLinter",
